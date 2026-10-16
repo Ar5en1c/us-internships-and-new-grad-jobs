@@ -1,0 +1,12 @@
+{
+  "name": "youxai-job-list",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Generator for the YouxAI internships and new graduate job list",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "generate": "node src/cli.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}

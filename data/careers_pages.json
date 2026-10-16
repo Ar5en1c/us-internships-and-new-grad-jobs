@@ -1,0 +1,15 @@
+{
+  "note": "Hand-kept. Each URL was fetched with a plain HTTP GET on the date below and answered 200. Add a row only after checking it the same way.",
+  "verified_on": "2026-10-11",
+  "pages": [
+    { "employer": "Amazon", "url": "https://www.amazon.jobs/en/" },
+    { "employer": "Apple", "url": "https://jobs.apple.com/en-us/search" },
+    { "employer": "Cisco", "url": "https://careers.cisco.com/" },
+    { "employer": "Google", "url": "https://www.google.com/about/careers/applications/" },
+    { "employer": "IBM", "url": "https://www.ibm.com/careers" },
+    { "employer": "Meta", "url": "https://www.metacareers.com/jobs" },
+    { "employer": "Microsoft", "url": "https://careers.microsoft.com/" },
+    { "employer": "Netflix", "url": "https://jobs.netflix.com/" },
+    { "employer": "Oracle", "url": "https://www.oracle.com/careers/" }
+  ]
+}

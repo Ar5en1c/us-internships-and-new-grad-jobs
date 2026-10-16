@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "generated_at": "2026-10-10T18:00:00.000Z",
+  "open": [
+    {
+      "list_id": "6059f90f9620",
+      "employer": "Odd | Chars *Corp* <b>x</b> [link]",
+      "title": "Intern `code` _under_ #1 @mention $5 | pipe second line",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Boston, MA"
+      ],
+      "url": "https://boards.example.invalid/odd/jobs/%281%29%7Cx",
+      "first_seen": "2026-10-10"
+    },
+    {
+      "list_id": "9acd0a2bbe58",
+      "employer": "Sample Bank Holdings",
+      "title": "New Grad Software Engineer",
+      "kind": "new_grad",
+      "field": "Software",
+      "locations": [
+        "Charlotte, NC"
+      ],
+      "url": "https://bank.wd.example.invalid/en-US/careers/job/Charlotte/New-Grad-SWE_R2",
+      "first_seen": "2026-10-10"
+    },
+    {
+      "list_id": "c0910e05983e",
+      "employer": "Sample Bank Holdings",
+      "title": "Finance Intern - Summer 2027",
+      "kind": "internship",
+      "field": "Finance",
+      "locations": [
+        "New York, NY"
+      ],
+      "url": "https://bank.wd.example.invalid/en-US/careers/job/New-York/Finance-Intern_R1",
+      "first_seen": "2026-10-10"
+    },
+    {
+      "list_id": "266c9e47b60d",
+      "employer": "Example Cloud",
+      "title": "Early Career Software Engineer",
+      "kind": "new_grad",
+      "field": "Software",
+      "locations": [
+        "Denver, CO"
+      ],
+      "url": "https://boards.example.invalid/examplecloud/jobs/306",
+      "first_seen": "2026-10-09"
+    },
+    {
+      "list_id": "6e8493aaeed9",
+      "employer": "Example Analytics",
+      "title": "Machine Learning Intern",
+      "kind": "internship",
+      "field": "Data and ML",
+      "locations": [
+        "New York, NY"
+      ],
+      "url": "https://jobs.example.invalid/exampleanalytics/aaa-1",
+      "first_seen": "2026-10-09"
+    },
+    {
+      "list_id": "02e20ce377bd",
+      "employer": "Example Capital",
+      "title": "New Grad - Quantitative Researcher",
+      "kind": "new_grad",
+      "field": "Finance",
+      "locations": [
+        "New York, NY"
+      ],
+      "url": "https://ashby.example.invalid/examplecapital/q1",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "list_id": "0b31bc71ba21",
+      "employer": "Fake Silicon Inc.",
+      "title": "Class of 2027 Hardware Engineer",
+      "kind": "new_grad",
+      "field": "Hardware",
+      "locations": [
+        "Austin, TX"
+      ],
+      "url": "https://ashby.example.invalid/fakesilicon/h2",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "list_id": "4ac9a7caeb72",
+      "employer": "Example Foods",
+      "title": "Intern, Marketing",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Chicago, IL"
+      ],
+      "url": "https://boards.example.invalid/examplefoods/jobs/203",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "list_id": "50ad13af15ab",
+      "employer": "Fake Silicon Inc.",
+      "title": "Hardware Engineering Intern",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "Remote - US"
+      ],
+      "url": "https://ashby.example.invalid/fakesilicon/h1",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "list_id": "68cedd48123b",
+      "employer": "Café Example Ltd",
+      "title": "Software Intern",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Portland, Oregon"
+      ],
+      "url": "https://jobs.example.invalid/cafeexample/c1",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "list_id": "72169c07e941",
+      "employer": "Example Labs",
+      "title": "Research Internship",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "United States"
+      ],
+      "url": "https://boards.example.invalid/examplelabs/jobs/9",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "list_id": "bc9b9b60b283",
+      "employer": "Placeholder Labs",
+      "title": "Product Design Intern",
+      "kind": "internship",
+      "field": "Product",
+      "locations": [
+        "Seattle, WA"
+      ],
+      "url": "https://ashby.example.invalid/placeholderlabs/p1",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "list_id": "d0f264d87f50",
+      "employer": "Example Analytics",
+      "title": "University Graduate, Data Analyst",
+      "kind": "new_grad",
+      "field": "Data and ML",
+      "locations": [
+        "New York, NY"
+      ],
+      "url": "https://jobs.example.invalid/exampleanalytics/aaa-2",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "list_id": "d6758b25aaa5",
+      "employer": "Example Robotics",
+      "title": "Software Engineer Intern, Summer 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Austin, TX",
+        "San Francisco, CA"
+      ],
+      "url": "https://boards.example.invalid/examplerobotics/jobs/102",
+      "first_seen": "2026-10-05"
+    },
+    {
+      "list_id": "7099ab9745c0",
+      "employer": "Example Cloud",
+      "title": "Software Intern",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Atlanta, GA",
+        "Chicago, IL",
+        "Miami, FL",
+        "Seattle, WA"
+      ],
+      "url": "https://boards.example.invalid/examplecloud/jobs/40",
+      "first_seen": "2026-10-01"
+    }
+  ],
+  "closed": [],
+  "archive": []
+}
