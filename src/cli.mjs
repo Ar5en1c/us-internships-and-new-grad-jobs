@@ -44,6 +44,7 @@ if (pausedBanner(data.exported_at, now)) {
 const opts = {};
 if (a.minJobs) opts.minJobs = Number(a.minJobs);
 if (a.minEmployers) opts.minEmployers = Number(a.minEmployers);
+opts.graceRuns = a.graceRuns !== undefined ? Number(a.graceRuns) : 1;
 if (a.minKindJobs) opts.minKindJobs = Number(a.minKindJobs);
 if (a.minKindEmployers) opts.minKindEmployers = Number(a.minKindEmployers);
 const blockPath = a.blocklist || join(out, 'data', 'blocklist.json');

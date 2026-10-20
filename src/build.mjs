@@ -12,7 +12,9 @@ export const REQUIRED_COLUMNS = [
 ];
 
 export const DEFAULTS = {
-  freshHours: 48,
+  freshHours: 48, // legacy proof: last_seen_at in the export
+  ownCrawlHours: 72, // proof by the own_crawl_seen_at column
+  graceRuns: 0, // runs a row missing from the export stays listed (the cli uses 1)
   maxOpenRows: 1000,
   closedKeepDays: 7,
   evergreenDays: 120,
@@ -63,6 +65,8 @@ export function buildModel({ data, previous, opts = {}, blocklist = null, robots
   validateExport(data);
   const prev = previous || emptyState();
   const exportedAt = new Date(data.exported_at);
+  // The column is the proof only when every row carries it; otherwise the legacy window on last_seen_at applies.
+  const ownMode = data.rows.length > 0 && data.rows.every((r) => r.own_crawl_seen_at);
   const dropped = {};
   const drop = (reason) => { dropped[reason] = (dropped[reason] || 0) + 1; };
 
@@ -84,7 +88,10 @@ export function buildModel({ data, previous, opts = {}, blocklist = null, robots
     if (String(r.portal).toLowerCase() === 'workday' && robotsDisallowed.has(new URL(url).hostname.toLowerCase())) { drop('tenant_robots_disallows'); continue; }
     if (blockedUrls.has(urlKey(url)) || blockedEmployers.has(employerKey(employer))) { drop('removal_requested'); continue; }
     const lastSeen = Date.parse(r.last_seen_at);
-    if (Number.isNaN(lastSeen) || hours(exportedAt - lastSeen) > o.freshHours) { drop('not_seen_in_48h'); continue; }
+    if (ownMode) {
+      const stamp = Date.parse(r.own_crawl_seen_at);
+      if (Number.isNaN(stamp) || hours(exportedAt - stamp) > o.ownCrawlHours) { drop('own_crawl_stale'); continue; }
+    } else if (Number.isNaN(lastSeen) || hours(exportedAt - lastSeen) > o.freshHours) { drop('not_seen_in_48h'); continue; }
     if (r.expires_at && Date.parse(r.expires_at) <= exportedAt.getTime()) { drop('expired'); continue; }
     const firstCaptured = Date.parse(r.first_captured_at);
     if (Number.isNaN(firstCaptured)) { drop('bad_first_seen'); continue; }
@@ -131,6 +138,21 @@ export function buildModel({ data, previous, opts = {}, blocklist = null, robots
       .sort((a, b) => (a.toLowerCase() < b.toLowerCase() ? -1 : 1)),
     url: g.url, first_seen: day(g.firstCaptured),
   }));
+  // Grace: a row that was listed last run and is missing now stays one more run (a slow board is
+  // read less often than the window). Never carried: rows that were removed on request or whose
+  // Workday tenant disallows the career site.
+  const graced = [];
+  if (o.graceRuns > 0) {
+    const have = new Set(open.map((x) => x.list_id));
+    for (const x of prev.open) {
+      if (have.has(x.list_id) || (x.missed || 0) >= o.graceRuns) continue;
+      const host = new URL(x.url).hostname.toLowerCase();
+      if (blockedUrls.has(urlKey(x.url)) || blockedEmployers.has(employerKey(x.employer))) continue;
+      if (robotsDisallowed.has(host)) continue;
+      graced.push({ ...x, missed: (x.missed || 0) + 1 });
+    }
+    open = open.concat(graced);
+  }
   // A list with fewer rows or employers than the minimum is not published yet.
   const withheld = [];
   for (const kind of ['internship', 'new_grad']) {
@@ -148,7 +170,9 @@ export function buildModel({ data, previous, opts = {}, blocklist = null, robots
   // 4. closed and archive, from the previous state
   const today = day(exportedAt);
   const openIds = new Set(open.map((x) => x.list_id));
-  const removed = prev.open.filter((x) => !openIds.has(x.list_id)).map((x) => ({ ...x, closed_on: today }));
+  // Rows of a withheld list were not closed, only hidden: they are not counted as having left.
+  const withheldKinds = new Set(withheld.map((w) => w.kind));
+  const removed = prev.open.filter((x) => !openIds.has(x.list_id) && !withheldKinds.has(x.kind)).map((x) => ({ ...x, closed_on: today }));
   const carriedClosed = [];
   const archive = [...prev.archive];
   for (const c of [...prev.closed, ...removed]) {
@@ -172,7 +196,8 @@ export function buildModel({ data, previous, opts = {}, blocklist = null, robots
   }
   return {
     exportedAt: exportedAt.toISOString(),
-    open, closed, archive: archiveUnique, employers, withheld,
+    open, closed, archive: archiveUnique, employers, withheld, graced: graced.length, freshness: ownMode ? 'own_crawl' : 'legacy',
+    windowHours: (ownMode ? o.ownCrawlHours : o.freshHours) + 24 * o.graceRuns,
     removedCount: removed.length,
     stats: { rowsIn: data.rows.length, open: open.length, employers, byKind, withheld, capped, dropped: sortKeys(dropped) },
     nextState: { version: 1, generated_at: exportedAt.toISOString(), open, closed, archive: archiveUnique },

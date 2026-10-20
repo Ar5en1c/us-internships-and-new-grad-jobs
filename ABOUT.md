@@ -13,7 +13,7 @@ A row is kept only when the export proves our own crawler stamped it in its late
 A row is kept when:
 
 - the title says it is an internship, a co-op with a season or year, or a new graduate or early career role (for example "new grad", "new graduate", "university graduate", "early careers", "class of 2027"). A manager word before "intern" is fine ("Product Manager Intern"); after it the role is a manager of interns and is left out;
-- the posting was seen on the employer's board in the last 48 hours and has not passed its end date;
+- our crawler listed the posting on the employer's board in the last 72 hours and it has not passed its end date. A role that is missing from one daily run stays listed for one more run, because some boards are read only every two or three days;
 - for Workday, the employer's tenant does not disallow its career site in its robots.txt (checked per tenant);
 - the link is a plain web address that looks usable and is not a third-party board or aggregator (for example careerpuck, LinkedIn, Indeed);
 - the location shows it is in the United States;

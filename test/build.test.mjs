@@ -151,7 +151,7 @@ test('cli: writes, repeats byte for byte, refuses a bad run, banners a stale one
   writeFileSync(join(dir, 'data', 'careers_pages.json'), readFileSync(join(root, 'data/careers_pages.json')));
   const run = (extra, input = join(root, 'fixtures/feed_day1.json')) =>
     spawnSync('node', [join(root, 'src/cli.mjs'), '--input', input, '--out', dir, ...extra], { encoding: 'utf8' });
-  const args = ['--now', '2026-10-10T20:00:00Z', '--min-jobs', '10', '--min-kind-jobs', '3', '--min-kind-employers', '3'];
+  const args = ['--now', '2026-10-10T20:00:00Z', '--min-jobs', '10', '--min-kind-jobs', '3', '--min-kind-employers', '3', '--grace-runs', '0'];
 
   const guarded = run(['--now', '2026-10-10T20:00:00Z']);
   assert.equal(guarded.status, 2);
@@ -165,7 +165,7 @@ test('cli: writes, repeats byte for byte, refuses a bad run, banners a stale one
   assert.equal(readFileSync(join(dir, 'README.md'), 'utf8'), first);
   assert.equal(readFileSync(join(dir, 'data', 'state.json'), 'utf8'), state1);
 
-  const old = run(['--now', '2026-10-14T00:00:00Z', '--min-jobs', '10', '--min-kind-jobs', '3', '--min-kind-employers', '3']);
+  const old = run(['--now', '2026-10-14T00:00:00Z', '--min-jobs', '10', '--min-kind-jobs', '3', '--min-kind-employers', '3', '--grace-runs', '0']);
   assert.equal(old.status, 3);
   assert.ok(readFileSync(join(dir, 'README.md'), 'utf8').startsWith('> Updates paused since 2026-10-10.'));
 
@@ -253,4 +253,92 @@ test('public allowlist holds no internal file, and the copy script refuses a fol
   assert.equal(ok.status, 0, ok.stderr);
   assert.ok(existsSync(join(dir, 'README.md')) && !existsSync(join(dir, 'DESIGN_UPDATE_x.md')) && existsSync(join(dir, '.git')));
   assert.ok(!existsSync(join(dir, 'QUERIES.md')) && !existsSync(join(dir, 'launch')));
+});
+
+// ---- own_crawl_seen_at switch (72 h window on the column, grace for slow boards) ----
+const withStamp = (rows, hoursOld, exportedAt) =>
+  rows.map((r) => ({ ...r, own_crawl_seen_at: new Date(Date.parse(exportedAt) - hoursOld * 3600000).toISOString() }));
+
+test('own_crawl_seen_at: 72 hour window on the column, legacy 48 hour rule without it', () => {
+  const d = day1();
+  const at = d.exported_at;
+  const fresh = { ...d, rows: withStamp(d.rows, 60, at).map((r) => ({ ...r, last_seen_at: '2026-10-01T00:00:00Z' })) };
+  const m = buildModel({ data: fresh, opts: OPTS });
+  assert.equal(m.freshness, 'own_crawl');
+  assert.ok(m.open.length >= 14, `stamped 60 h ago and listed, got ${m.open.length}`);
+  assert.ok(!m.stats.dropped.not_seen_in_48h);
+  const stale = { ...d, rows: withStamp(d.rows, 80, at) };
+  const s = buildModel({ data: stale, opts: OPTS });
+  assert.equal(s.open.length, 0);
+  assert.ok(s.stats.dropped.own_crawl_stale > 30);
+  const mixed = { ...d, rows: d.rows.map((r, i) => (i === 0 ? { ...r, own_crawl_seen_at: null } : r)) };
+  assert.equal(buildModel({ data: mixed, opts: OPTS }).freshness, 'legacy'); // one row without it: the old rule for all
+  assert.equal(buildModel({ data: day1(), opts: OPTS }).freshness, 'legacy');
+});
+
+test('README says last 3 days only when the column is the proof', () => {
+  const d = day1();
+  const legacy = renderReadme(buildModel({ data: d, opts: OPTS }), careers());
+  assert.match(legacy, /last 48 hours/);
+  const own = renderReadme(buildModel({ data: { ...d, rows: withStamp(d.rows, 10, d.exported_at) }, opts: OPTS }), careers());
+  assert.match(own, /last 3 days/);
+  assert.ok(!/48 hours/.test(own));
+});
+
+test('grace: a row absent from one run stays open, from two runs it leaves', () => {
+  const d1 = day1();
+  const m1 = buildModel({ data: d1, opts: OPTS });
+  const gone = d1.rows.filter((r) => r.company !== 'Example Capital');
+  const run = (iso) => ({ exported_at: iso, rows: gone.map((r) => ({ ...r, last_seen_at: iso.replace(/T.*/, 'T10:00:00Z') })) });
+  const g = { ...OPTS, graceRuns: 1 };
+  const m2 = buildModel({ data: run('2026-10-11T18:00:00Z'), previous: m1.nextState, opts: g });
+  assert.equal(m2.removedCount, 0);
+  assert.equal(m2.closed.length, 0);
+  assert.ok(m2.open.some((x) => x.employer === 'Example Capital'), 'still listed after one absence');
+  assert.equal(m2.open.find((x) => x.employer === 'Example Capital').missed, 1);
+  const m3 = buildModel({ data: run('2026-10-12T18:00:00Z'), previous: m2.nextState, opts: g });
+  assert.equal(m3.removedCount, 1);
+  assert.equal(m3.closed.length, 1);
+  assert.ok(!m3.open.some((x) => x.employer === 'Example Capital'));
+  // seen again after one absence: counter resets
+  const back = buildModel({ data: { ...d1, exported_at: '2026-10-12T18:00:00Z', rows: d1.rows.map((r) => ({ ...r, last_seen_at: '2026-10-12T10:00:00Z' })) }, previous: m2.nextState, opts: g });
+  assert.equal(back.open.find((x) => x.employer === 'Example Capital').missed, undefined);
+  // README never shows the counter
+  assert.ok(!/missed/.test(renderReadme(m2, careers())));
+});
+
+test('grace never carries a row that was removed, blocked or left out by robots', () => {
+  const d1 = day1();
+  const m1 = buildModel({ data: d1, opts: OPTS });
+  const gone = { exported_at: '2026-10-11T18:00:00Z', rows: [] };
+  const g = { ...OPTS, graceRuns: 1, minJobs: 0, minEmployers: 0, minKindJobs: 0, minKindEmployers: 0 };
+  const target = m1.open.find((x) => x.employer === 'Example Capital');
+  const blocked = buildModel({ data: gone, previous: m1.nextState, opts: g, blocklist: { urls: [], employers: ['Example Capital'] } });
+  assert.ok(!blocked.open.some((x) => x.employer === 'Example Capital'));
+  assert.equal(blocked.removedCount >= 1, true);
+  const host = new URL(m1.open.find((x) => /bank\.wd/.test(x.url)).url).hostname;
+  const robots = buildModel({ data: gone, previous: m1.nextState, opts: g, robots: { disallowed: [host] } });
+  assert.ok(!robots.open.some((x) => new URL(x.url).hostname === host));
+  assert.ok(target);
+});
+
+test('a list withheld for being under the minimum is not counted as rows that left', () => {
+  const d1 = day1();
+  const m1 = buildModel({ data: d1, opts: OPTS });
+  const newGrad = m1.open.filter((x) => x.kind === 'new_grad').length;
+  assert.ok(newGrad > 0);
+  const d2 = { ...d1, exported_at: '2026-10-11T18:00:00Z', rows: d1.rows.map((r) => ({ ...r, last_seen_at: '2026-10-11T10:00:00Z' })) };
+  const m2 = buildModel({ data: d2, previous: m1.nextState, opts: { ...OPTS, minKindJobs: newGrad + 1 } });
+  assert.deepEqual(m2.withheld.map((w) => w.kind), ['new_grad']);
+  assert.equal(m2.removedCount, 0);
+  assert.equal(m2.closed.length, 0);
+  assert.ok(!m2.nextState.open.some((x) => x.kind === 'new_grad'));
+});
+
+test('the freshness sentence counts the grace run, so it stays true', () => {
+  const d = day1();
+  const own = { ...d, rows: withStamp(d.rows, 10, d.exported_at) };
+  assert.match(renderReadme(buildModel({ data: own, opts: { ...OPTS, graceRuns: 1 } }), careers()), /last 4 days/);
+  assert.match(renderReadme(buildModel({ data: d, opts: { ...OPTS, graceRuns: 1 } }), careers()), /last 3 days/);
+  assert.match(renderReadme(buildModel({ data: d, opts: OPTS }), careers()), /last 48 hours/);
 });

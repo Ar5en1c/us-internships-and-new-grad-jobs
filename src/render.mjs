@@ -28,13 +28,18 @@ const closedLine = (x) =>
 const HEAD = '| Employer | Role | Location | First seen | Apply |\n| --- | --- | --- | --- | --- |';
 const CLOSED_HEAD = '| Employer | Role | Location | First seen | Left the list |\n| --- | --- | --- | --- | --- |';
 
+/** "48 hours" up to two days, otherwise whole days, rounded up. */
+function windowLabel(h) {
+  return h <= 48 ? `${h} hours` : `${Math.ceil(h / 24)} days`;
+}
+
 export function renderReadme(model, careers) {
   const out = [];
   const withheld = model.withheld || [];
   const kinds = KINDS.filter(([k]) => !withheld.some((w) => w.kind === k));
   const title = kinds.length === KINDS.length ? 'Internships and new graduate jobs' : 'Internships';
   out.push(`# ${title}, checked on the employer's own site`, '');
-  out.push('Each row is a posting on an employer\'s own job board that our job feed saw in the last 48 hours, and each one links to the employer\'s own page. A role was open when we checked and may have closed since. If we do not know something, the cell is blank.', '');
+  out.push(`Each row is a posting on an employer\'s own job board that our job feed saw in the last ${windowLabel(model.windowHours)}, and each one links to the employer\'s own page. A role was open when we checked and may have closed since. If we do not know something, the cell is blank.`, '');
   out.push(`Last run: ${stamp(model.exportedAt)}. ${model.open.length} open roles at ${model.employers} employers.`, '');
   out.push('Wrong or closed row? Open an issue, or email founder@youxai.app. We reply within 2 business days.', '');
   out.push(`Maintained by [YouxAI](${YOUXAI_LINK}), a Chrome extension that finds roles that fit you and fills job applications.`, '');
