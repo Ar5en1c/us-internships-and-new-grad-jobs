@@ -342,3 +342,17 @@ test('the freshness sentence counts the grace run, so it stays true', () => {
   assert.match(renderReadme(buildModel({ data: d, opts: { ...OPTS, graceRuns: 1 } }), careers()), /last 3 days/);
   assert.match(renderReadme(buildModel({ data: d, opts: OPTS }), careers()), /last 48 hours/);
 });
+
+test('grace is for rows the export no longer lists, not for rows a rule now drops', () => {
+  const d1 = day1();
+  const m1 = buildModel({ data: d1, opts: OPTS });
+  const g = { ...OPTS, graceRuns: 1 };
+  const target = m1.open.find((x) => x.employer === 'Example Capital');
+  // still in the export, but the location now reads as outside the US: it leaves at once
+  const d2 = { ...d1, exported_at: '2026-10-11T18:00:00Z', rows: d1.rows.map((r) => ({ ...r, last_seen_at: '2026-10-11T10:00:00Z',
+    location: r.company === 'Example Capital' ? 'Toronto, Canada' : r.location })) };
+  const m2 = buildModel({ data: d2, previous: m1.nextState, opts: g });
+  assert.ok(target);
+  assert.ok(!m2.open.some((x) => x.employer === 'Example Capital'));
+  assert.ok(m2.removedCount >= 1);
+});

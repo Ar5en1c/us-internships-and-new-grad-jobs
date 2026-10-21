@@ -222,6 +222,8 @@ export function parseLocations(raw, workArrangement) {
   let remote = remoteFlag;
   for (let part of parts) {
     const bareText = part.replace(WORK_PREFIX, '');
+    // Workday writes Canada as "CA-QC-LONGUEUIL-AY ~ 1000 Blvd ..."; the CA there is Canada, not California.
+    if (/^(?:CA\s*-\s*)?(?:QC|ON|BC|AB|MB|NS|NB|NL|PE|SK)\s*-/.test(bareText)) continue;
     // Workday style: "GA - Alpharetta", "NY-New York"
     const st = bareText.match(/^([A-Z]{2})\s*-\s*(.+)$/);
     if (st && STATE_SET.has(st[1]) && !NON_US.test(st[2]) && !(AMBIGUOUS_CODES.has(st[1]) && NON_US_CITY.test(st[2]))) {

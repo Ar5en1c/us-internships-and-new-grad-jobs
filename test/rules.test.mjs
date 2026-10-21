@@ -187,3 +187,11 @@ test('parentheses stay balanced when locations are split or trimmed', () => {
     for (const x of us) assert.equal((x.match(/\(/g) || []).length, (x.match(/\)/g) || []).length, x);
   }
 });
+
+test('a Canadian province prefix on a Workday site is Canada, not California', () => {
+  assert.equal(parseLocations('CA-QC-LONGUEUIL-AY ~ 1000 Blvd Marie-Victorin ~ AY BLDG').reason, 'no_us_evidence');
+  assert.equal(parseLocations('QC-LONGUEUIL-AY ~ 1000 Blvd Marie-Victorin ~ AY BLDG, CA').reason, 'no_us_evidence');
+  assert.deepEqual(parseLocations('CA-San Diego').us, ['San Diego, CA']);
+  assert.deepEqual(parseLocations('CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108, IA').us, ['CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108, IA']);
+  assert.deepEqual(parseLocations('Diamond Bar, CA').us, ['Diamond Bar, CA']);
+});

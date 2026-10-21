@@ -72,6 +72,7 @@ export function buildModel({ data, previous, opts = {}, blocklist = null, robots
 
   // 1. per-row rules
   const kept = [];
+  const ruleDropped = new Set();
   for (const r of data.rows) {
     const title = cleanText(r.job_title);
     const employer = cleanText(r.company);
@@ -84,26 +85,28 @@ export function buildModel({ data, previous, opts = {}, blocklist = null, robots
     if (r.own_crawl_proven !== true) { drop('not_own_crawl'); continue; }
     const url = cleanUrl(r.url);
     if (!url) { drop('dead_link'); continue; }
-    if (isThirdPartyHost(url)) { drop('third_party_host'); continue; }
-    if (String(r.portal).toLowerCase() === 'workday' && robotsDisallowed.has(new URL(url).hostname.toLowerCase())) { drop('tenant_robots_disallows'); continue; }
-    if (blockedUrls.has(urlKey(url)) || blockedEmployers.has(employerKey(employer))) { drop('removal_requested'); continue; }
+    // A row still in the export that a rule drops leaves the list now; grace is only for rows a slow board did not re-list.
+    const dropRule = (reason) => { drop(reason); ruleDropped.add(urlKey(url)); };
+    if (isThirdPartyHost(url)) { dropRule('third_party_host'); continue; }
+    if (String(r.portal).toLowerCase() === 'workday' && robotsDisallowed.has(new URL(url).hostname.toLowerCase())) { dropRule('tenant_robots_disallows'); continue; }
+    if (blockedUrls.has(urlKey(url)) || blockedEmployers.has(employerKey(employer))) { dropRule('removal_requested'); continue; }
     const lastSeen = Date.parse(r.last_seen_at);
     if (ownMode) {
       const stamp = Date.parse(r.own_crawl_seen_at);
       if (Number.isNaN(stamp) || hours(exportedAt - stamp) > o.ownCrawlHours) { drop('own_crawl_stale'); continue; }
     } else if (Number.isNaN(lastSeen) || hours(exportedAt - lastSeen) > o.freshHours) { drop('not_seen_in_48h'); continue; }
-    if (r.expires_at && Date.parse(r.expires_at) <= exportedAt.getTime()) { drop('expired'); continue; }
+    if (r.expires_at && Date.parse(r.expires_at) <= exportedAt.getTime()) { dropRule('expired'); continue; }
     const firstCaptured = Date.parse(r.first_captured_at);
     if (Number.isNaN(firstCaptured)) { drop('bad_first_seen'); continue; }
-    if (hasContactInfo(title, employer, r.location)) { drop('contact_info'); continue; }
-    if (isTalentPool(title)) { drop('talent_pool'); continue; }
+    if (hasContactInfo(title, employer, r.location)) { dropRule('contact_info'); continue; }
+    if (isTalentPool(title)) { dropRule('talent_pool'); continue; }
     const kind = classifyKind(title);
-    if (!kind) { drop('title_not_matching'); continue; }
-    if (namesPastSeason(title, exportedAt)) { drop('past_season'); continue; }
-    if ((exportedAt - firstCaptured) / 86400000 > o.evergreenDays) { drop('older_than_120_days'); continue; }
-    if (Number(r.min_years_experience) > o.maxMinYears) { drop('asks_for_experience'); continue; }
+    if (!kind) { dropRule('title_not_matching'); continue; }
+    if (namesPastSeason(title, exportedAt)) { dropRule('past_season'); continue; }
+    if ((exportedAt - firstCaptured) / 86400000 > o.evergreenDays) { dropRule('older_than_120_days'); continue; }
+    if (Number(r.min_years_experience) > o.maxMinYears) { dropRule('asks_for_experience'); continue; }
     const loc = parseLocations(r.location, r.work_arrangement);
-    if (loc.reason) { drop(loc.reason); continue; }
+    if (loc.reason) { dropRule(loc.reason); continue; }
     kept.push({ r, title, employer, url, lastSeen, firstCaptured, kind, loc });
   }
 
@@ -146,6 +149,7 @@ export function buildModel({ data, previous, opts = {}, blocklist = null, robots
     const have = new Set(open.map((x) => x.list_id));
     for (const x of prev.open) {
       if (have.has(x.list_id) || (x.missed || 0) >= o.graceRuns) continue;
+      if (ruleDropped.has(urlKey(x.url))) continue;
       const host = new URL(x.url).hostname.toLowerCase();
       if (blockedUrls.has(urlKey(x.url)) || blockedEmployers.has(employerKey(x.employer))) continue;
       if (robotsDisallowed.has(host)) continue;
