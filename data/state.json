@@ -1,7 +1,523 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T16:28:18.612Z",
+  "generated_at": "2026-10-28T23:53:29.046Z",
   "open": [
+    {
+      "list_id": "08c666014bf2",
+      "employer": "Amentum",
+      "title": "Mechanical Engineering Intern",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "Oak Ridge, TN"
+      ],
+      "url": "https://pae.wd1.myworkdayjobs.com/amentum_careers/job/US-TN-Oak-Ridge/Mechanical-Engineering-Intern_R0174161",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "09492a3ccea7",
+      "employer": "Niantic Spatial",
+      "title": "Software Engineering Intern (Summer 2027) - Native SDK & Mobile Platforms",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "url": "https://jobs.ashbyhq.com/niantic-spatial/ed68b062-4dcb-4deb-9cc0-ed38030f6e43",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "19ceb86b505c",
+      "employer": "Skydio",
+      "title": "PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Mateo, California"
+      ],
+      "url": "https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "1a97a4cf023d",
+      "employer": "CACI",
+      "title": "International Business Intern - Spring 2027",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Norfolk, VA"
+      ],
+      "url": "https://caci.wd1.myworkdayjobs.com/external/job/Norfolk-VA-US/International-Business-Intern---Spring-2027_334277",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "30e3fe65d98a",
+      "employer": "Revel",
+      "title": "Internship: Software Engineer, Test",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Los Angeles"
+      ],
+      "url": "https://jobs.ashbyhq.com/revel/f080b27d-92c7-4e1f-a85f-b4a7c166d738",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "3557866dd6b7",
+      "employer": "K2 Space",
+      "title": "GNC Engineering Intern - Summer 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Los Angeles, CA"
+      ],
+      "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411917008",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "3be4b24cd8e4",
+      "employer": "National Information Solutions Cooperative",
+      "title": "Intern - Database Conversion Programming",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Lake St. Louis, MO or Mandan, ND"
+      ],
+      "url": "https://job-boards.greenhouse.io/nisc/jobs/8094408",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "3d8fe710d91e",
+      "employer": "RTX",
+      "title": "Industrial Engineering Co-Op (Summer/Fall 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "CORALVILLE-155 ~ 2855 Heartland Dr ~ HEARTLAND BLDG 155, IA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CORALVILLE-155--2855-Heartland-Dr--HEARTLAND-BLDG-155/Industrial-Engineering-Co-Op--Summer-Fall-2027-_01885604",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "41a298b47b1f",
+      "employer": "Skydio",
+      "title": "Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Mateo, California"
+      ],
+      "url": "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "4363f92f4f1a",
+      "employer": "Revel",
+      "title": "Internship: Embedded Software Engineer",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "Los Angeles"
+      ],
+      "url": "https://jobs.ashbyhq.com/revel/f8eec1fd-da28-47ce-bca4-2fbe9c48a889",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "50dd4d534d36",
+      "employer": "National Information Solutions Cooperative",
+      "title": "Intern - Platform Development (Systems Engineering)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Lake Saint Louis, MO or Mandan, ND"
+      ],
+      "url": "https://job-boards.greenhouse.io/nisc/jobs/8204101",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "5a97d96048a2",
+      "employer": "RTX",
+      "title": "Software Engineer Co-op (January 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2, MA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Software-Engineer-Co-op--January-2027-_01885371",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "5c96cab79f5e",
+      "employer": "RTX",
+      "title": "Mission Systems Supplier Quality Intern (Spring 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "REMOTE, IA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-REMOTE/Mission-Systems-Supplier-Quality-Intern--Spring-2027-_01884395",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "5f03904087a8",
+      "employer": "Skydio",
+      "title": "Manufacturing Intern - Summer 2027",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "Hayward, California"
+      ],
+      "url": "https://jobs.ashbyhq.com/skydio/8f4f62b0-a2ea-498d-b78f-6f661b724a3c",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "608cb1f4d3da",
+      "employer": "RTX",
+      "title": "Industrial Engineering Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "CORALVILLE-155 ~ 2855 Heartland Dr ~ HEARTLAND BLDG 155, IA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CORALVILLE-155--2855-Heartland-Dr--HEARTLAND-BLDG-155/Industrial-Engineering-Intern--Summer-2027-_01885606",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "6d0da16e99ba",
+      "employer": "RTX",
+      "title": "Mechanical Engineering Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01, CA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Mechanical-Engineering-Intern--Summer-2027-_01883293",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "6fe5f419cf0b",
+      "employer": "RTX",
+      "title": "Product Quality Engineering Co-Op (Spring/Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "CEDAR RAPIDS-108 ~ 400 Collins Rd NE ~ BLDG 108, IA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-108--400-Collins-Rd-NE--BLDG-108/Product-Quality-Engineering-Co-Op--Spring-Summer-2027-_01885440",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "716dd4b8bca9",
+      "employer": "National Information Solutions Cooperative",
+      "title": "Intern - Enterprise Project Management",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Cedar Rapids, IA or Mandan, ND"
+      ],
+      "url": "https://job-boards.greenhouse.io/nisc/jobs/8327204",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "72ba9d7dbad7",
+      "employer": "CIBC",
+      "title": "2027 Summer Intern - Private Equity Chicago",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Chicago, IL"
+      ],
+      "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/Chicago-IL/XMLNAME-2027-Summer-Intern---Private-Equity-Chicago_2620147-1",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "730cd92aa5c9",
+      "employer": "National Information Solutions Cooperative",
+      "title": "Intern - Information Security (Cybersecurity)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Lake St. Louis, MO or Mandan, ND"
+      ],
+      "url": "https://job-boards.greenhouse.io/nisc/jobs/8191724",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "740dbb68367a",
+      "employer": "Delta Dental",
+      "title": "Internship - Application Development",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Okemos, MI"
+      ],
+      "url": "https://rhsc.wd5.myworkdayjobs.com/delta_dental_of_michigan/job/Okemos-MI/Internship---Application-Development_JR101510",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "77ba6d3dc91f",
+      "employer": "National Information Solutions Cooperative",
+      "title": "Intern - Quality Engineer",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Lake St. Louis, MO or Mandan, ND"
+      ],
+      "url": "https://job-boards.greenhouse.io/nisc/jobs/8191319",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "7d12dc0c45ab",
+      "employer": "RTX",
+      "title": "Antenna and Microwave Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "TEWKSBURY-TB1 ~ 50 Apple Hill Dr ~ ASSABET BLDG, MA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB1--50-Apple-Hill-Dr--ASSABET-BLDG/Antenna-and-Microwave-Intern--Summer-2027-_01884126",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "805479b354e7",
+      "employer": "Revel",
+      "title": "Internship: Full Stack Software Engineer",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Los Angeles"
+      ],
+      "url": "https://jobs.ashbyhq.com/revel/29968ce1-8838-44e8-ac4e-6b1c87ce5314",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "80e9aa9748ab",
+      "employer": "RTX",
+      "title": "Hardware Electrical Engineering Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "CAMBRIDGE-BBN01 ~ 10 & 50 Moulton St ~ MOULTON B2, MA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Intern--Summer-2027-_01883831",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "8db3576fa24c",
+      "employer": "AstraZeneca (Alexion)",
+      "title": "2027 Summer Intern- Medical Writing Operations (PhD)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "US - New Haven - CT"
+      ],
+      "url": "https://astrazeneca.wd3.myworkdayjobs.com/Alexion/job/US---New-Haven---CT/XMLNAME-2027-Summer-Intern--Medical-Writing-Operations--PhD-_R-262924",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "8ef56193d84c",
+      "employer": "RTX",
+      "title": "Electrical Engineering Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01, CA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Electrical-Engineering-Intern--Summer-2027-_01883292",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "90a9880fb512",
+      "employer": "National Information Solutions Cooperative",
+      "title": "Intern - Customer Care & Billing Support (Energy)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Lake Saint Louis, MO"
+      ],
+      "url": "https://job-boards.greenhouse.io/nisc/jobs/8193381",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "a91f39aa360b",
+      "employer": "CACI",
+      "title": "Naval Architecture/Marine Engineering Intern - Spring 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Washington, DC"
+      ],
+      "url": "https://caci.wd1.myworkdayjobs.com/external/job/Washington-DC-US/Naval-Architecture-Marine-Engineering-Intern---Spring-2027_334138",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "aebfcad87eaa",
+      "employer": "RTX",
+      "title": "Receiver, Exciter, & Processing Architecture Software Engineer Intern (Summer 2027) - Onsite",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "MARLBOROUGH-MA2 ~ 1001 Boston Post Rd ~ BLDG 2, MA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA2--1001-Boston-Post-Rd--BLDG-2/Receiver--Exciter----Processing-Architecture-Software-Engineer-Intern--Summer-2027----Onsite_01885187",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "af08ef275d41",
+      "employer": "Revel",
+      "title": "Internship: Forward Deployed Engineer, Test",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Los Angeles"
+      ],
+      "url": "https://jobs.ashbyhq.com/revel/6ca4dca8-a43e-41da-acc3-e6b4d8f9b3c1",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "befe64fa8007",
+      "employer": "Skydio",
+      "title": "Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools, 2027 (HQ)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Mateo, California"
+      ],
+      "url": "https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "c3185b0c8198",
+      "employer": "Revel",
+      "title": "Internship: Forward Deployed Engineer, Software",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Los Angeles"
+      ],
+      "url": "https://jobs.ashbyhq.com/revel/34f97b81-c981-4c4b-9f4d-d471c33b46cc",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "ce8a00dd71a4",
+      "employer": "CIBC",
+      "title": "2027 Summer Intern Private Wealth Management New York",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "New York, NY"
+      ],
+      "url": "https://cibc.wd3.myworkdayjobs.com/campus/job/New-York-NY/XMLNAME-2027-Summer-Intern-Private-Wealth-Management-New-York_2620154",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "d4c977bbe4f4",
+      "employer": "Skydio",
+      "title": "Autonomy Engineer Intern, Simulation & Robotics, 2027 (HQ)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Mateo, California"
+      ],
+      "url": "https://jobs.ashbyhq.com/skydio/6f5caf41-fa1d-4208-9bdc-82c72e5d3f17",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "d5b69b2c649e",
+      "employer": "Jabil",
+      "title": "Process Technician - Intern",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Clinton, MA"
+      ],
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Clinton-MA/Process-Technician---Intern_J2470229",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "d75533ec5fa3",
+      "employer": "Skydio",
+      "title": "PhD Autonomy Engineer Intern, 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Mateo, California"
+      ],
+      "url": "https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "e2445fa06cc3",
+      "employer": "RTX",
+      "title": "Hardware Electrical Engineering Co-Op (Spring 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "CAMBRIDGE-BBN01 ~ 10 & 50 Moulton St ~ MOULTON B2, MA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/Hardware-Electrical-Engineering-Co-Op--Spring-2027-_01883598",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "e8175995aebc",
+      "employer": "National Information Solutions Cooperative",
+      "title": "Intern - Operations Support",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Lake Saint Louis, MO"
+      ],
+      "url": "https://job-boards.greenhouse.io/nisc/jobs/8193359",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "e8da2ec34092",
+      "employer": "Skydio",
+      "title": "Autonomy Engineer Intern, 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Mateo, California"
+      ],
+      "url": "https://jobs.ashbyhq.com/skydio/d39c46ce-a4e9-45d2-99bf-17e3b7dac34b",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "e9b9a5e1653b",
+      "employer": "National Information Solutions Cooperative",
+      "title": "Intern - Application Analyst (Financials Software)",
+      "kind": "internship",
+      "field": "Finance",
+      "locations": [
+        "Mandan, ND"
+      ],
+      "url": "https://job-boards.greenhouse.io/nisc/jobs/8301304",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "f63a251988d1",
+      "employer": "RTX",
+      "title": "Manufacturing Execution System (MES) Co-Op (Spring/Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105, IA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Manufacturing-Execution-System--MES--Co-Op--Spring-Summer-2027-_01885556",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "list_id": "ffdc6a65a9a2",
+      "employer": "RTX",
+      "title": "Mechanical Engineer Intern - Special Tooling and Test Fixtures (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "MCKINNEY-513WZS ~ 2501 W University Dr ~ WZS BLDG, TX"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WZS--2501-W-University-Dr--WZS-BLDG/Mechanical-Engineer-Intern---Special-Tooling-and-Test-Fixtures--Summer-2027-_01884792",
+      "first_seen": "2026-10-28"
+    },
     {
       "list_id": "01b9b5e1582b",
       "employer": "RTX",
@@ -12,6 +528,18 @@
         "MELBOURNE-310 ~ 1100 W Hibiscus Blvd ~ BLDG 310, FL"
       ],
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-MELBOURNE-310--1100-W-Hibiscus-Blvd--BLDG-310/Manufacturing-Engineering-Ops-Co-Op--Spring-Summer-2027-_01884010",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "084a87f07c02",
+      "employer": "RTX",
+      "title": "Quality Engineering Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "COLORADO SPRINGS-793 ~ 1225 Aeroplaza Dr ~ AEROPLAZA, CO"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-COLORADO-SPRINGS-793--1225-Aeroplaza-Dr--AEROPLAZA/Quality-Engineering-Intern--Summer-2027-_01882062",
       "first_seen": "2026-10-27"
     },
     {
@@ -51,6 +579,18 @@
       "first_seen": "2026-10-27"
     },
     {
+      "list_id": "192127620f9f",
+      "employer": "RTX",
+      "title": "Contracts Coop ( Spring/Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "REMOTE, IL"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IL-REMOTE/Contracts-Coop---Spring-Summer-2027-_01883779",
+      "first_seen": "2026-10-27"
+    },
+    {
       "list_id": "2865441962bb",
       "employer": "ID.me",
       "title": "Summer Intern 2027 - Product Intern",
@@ -60,6 +600,18 @@
         "Mountain View, CA"
       ],
       "url": "https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7986695003",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "31e7176ff00c",
+      "employer": "DV Trading",
+      "title": "DevOps Engineer Intern - Summer 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Chicago"
+      ],
+      "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4730886005",
       "first_seen": "2026-10-27"
     },
     {
@@ -96,6 +648,54 @@
         "Mountain View, CA"
       ],
       "url": "https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7986505003",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "3edd065adddc",
+      "employer": "RTX",
+      "title": "Structural Engineering Co-op (Winter/Spring 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "HALTOM CITY-4630 ~ 4630 N Beach St ~ BEACH, TX"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-HALTOM-CITY-4630--4630-N-Beach-St--BEACH/Structural-Engineering-Co-op--Winter-Spring-2027-_01883312",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "429f39facee3",
+      "employer": "RTX",
+      "title": "Embedded Software Engineering Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "GOLETA-H01 ~ 6380 Hollister Ave ~ BLDG H01, CA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-GOLETA-H01--6380-Hollister-Ave--BLDG-H01/Embedded-Software-Engineering-Intern--Summer-2027-_01884782",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "4ad5431332c6",
+      "employer": "RTX",
+      "title": "F135 Base High-Pressure Compressor Design Intern (Summer 2027) (Onsite)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "JUPITER-ADR ~ 17900 Beeline Hwy ~ ADR BLDG, FL"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-JUPITER-ADR--17900-Beeline-Hwy--ADR-BLDG/F135-Base-High-Pressure-Compressor-Design-Intern--Summer-2027---Onsite-_01882742",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "5a2505a9b707",
+      "employer": "Motorola",
+      "title": "Motorola Solutions Foundation - 2027 Summer Internship",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Chicago, IL"
+      ],
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Motorola-Solutions-Foundation---2027-Summer-Internship_R68722",
       "first_seen": "2026-10-27"
     },
     {
@@ -147,6 +747,18 @@
       "first_seen": "2026-10-27"
     },
     {
+      "list_id": "80bf6ef4cafe",
+      "employer": "RTX",
+      "title": "Secure Software Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "WOBURN-WB2 ~ 225 Presidential Way ~ GODDARD BLDG, MA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-WOBURN-WB2--225-Presidential-Way--GODDARD-BLDG/Secure-Software-Intern--Summer-2027-_01884942",
+      "first_seen": "2026-10-27"
+    },
+    {
       "list_id": "88f2decf6d89",
       "employer": "ID.me",
       "title": "Summer Intern 2027 - General Program",
@@ -156,6 +768,18 @@
         "Mountain View, CA"
       ],
       "url": "https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7986697003",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "8d4ea9b8eb81",
+      "employer": "Together AI",
+      "title": "Technical Writer Intern, Developer Experience (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5271149007",
       "first_seen": "2026-10-27"
     },
     {
@@ -171,15 +795,80 @@
       "first_seen": "2026-10-27"
     },
     {
+      "list_id": "a445dda0e0e5",
+      "employer": "RTX",
+      "title": "Raytheon Finance Intern (Spring 2027)",
+      "kind": "internship",
+      "field": "Finance",
+      "locations": [
+        "MCKINNEY-513WZ ~ 2501 W University Dr ~ WING Z BLDG, TX"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WZ--2501-W-University-Dr--WING-Z-BLDG/Raytheon-Finance--Intern--Spring-2027-_01885007",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "a510eab6bda9",
+      "employer": "BorgWarner Inc.",
+      "title": "HR Intern",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Auburn Hills - Michigan - USA",
+        "Bellwood - Illinois - USA",
+        "Cadillac - Michigan - USA",
+        "Seneca - South Carolina - USA",
+        "United States"
+      ],
+      "url": "https://borgwarner.wd5.myworkdayjobs.com/BorgWarner_Careers/job/Auburn-Hills---Michigan---USA/HR-Intern_R2026-4081",
+      "first_seen": "2026-10-27"
+    },
+    {
       "list_id": "a920bdf83961",
       "employer": "RTX",
       "title": "Industrial Engineering Co-op (Spring/Summer 2027)",
       "kind": "internship",
       "field": "Software",
       "locations": [
-        "BELLEVUE-186 ~ 1500 State St ~ STATE, IA"
+        "BELLEVUE-186 ~ 1500 State St ~ STATE, IA",
+        "CORALVILLE-155 ~ 2855 Heartland Dr ~ HEARTLAND BLDG 155, IA"
       ],
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-BELLEVUE-186--1500-State-St--STATE/Industrial-Engineering-Co-op--Spring-Summer-2027-_01876770",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "aae4d643cc22",
+      "employer": "CACI",
+      "title": "Software Engineering Intern - Summer 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Sarasota, FL"
+      ],
+      "url": "https://caci.wd1.myworkdayjobs.com/external/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "ab1bade03f88",
+      "employer": "RTX",
+      "title": "Systems Engineering Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "AURORA-S75 ~ 16800 E Centretech Pkwy ~ BLDG S75, CO"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Systems-Engineering-Intern--Summer-2027-_01885052",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "b5faf0c3362f",
+      "employer": "RTX",
+      "title": "Systems Engineer Intern",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "ST PETERSBURG-381BD ~ 7401 22nd Ave N ~ BLDG D, FL"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-ST-PETERSBURG-381BD--7401-22nd-Ave-N--BLDG-D/Systems-Engineer-Intern_01884409",
       "first_seen": "2026-10-27"
     },
     {
@@ -219,15 +908,40 @@
       "first_seen": "2026-10-27"
     },
     {
+      "list_id": "d2ad4f6df676",
+      "employer": "Atoms",
+      "title": "Software Engineering Intern - 2027 Winter Term",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Los Angeles, CA"
+      ],
+      "url": "https://job-boards.greenhouse.io/cssmerge/jobs/8888411002",
+      "first_seen": "2026-10-27"
+    },
+    {
       "list_id": "d2b535596631",
       "employer": "RTX",
       "title": "Software Engineering Intern (Summer 2027)",
       "kind": "internship",
       "field": "Software",
       "locations": [
-        "SAN DIEGO-SD1 ~ 8650 Balboa Ave ~ SAN ANTONIO BLDG, CA"
+        "SAN DIEGO-SD1 ~ 8650 Balboa Ave ~ SAN ANTONIO BLDG, CA",
+        "STERLING-291 ~ 22640 Davis Dr ~ DAVIS, VA"
       ],
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Software-Engineering--Intern--Summer-2027-_01884532",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "d3357005b609",
+      "employer": "RTX",
+      "title": "Project Intern (Summer 2027)(Onsite)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "EAST HARTFORD-G ~ 400 Main St ~ BLDG G, CT"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-G--400-Main-St--BLDG-G/Project-Intern--Summer-2027--Onsite-_01883178",
       "first_seen": "2026-10-27"
     },
     {
@@ -264,6 +978,18 @@
         "Boston, MA"
       ],
       "url": "https://job-boards.greenhouse.io/klaviyocampus/jobs/8003260003",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "list_id": "e7017c044804",
+      "employer": "Saviynt",
+      "title": "Research Scientist Intern - PhD",
+      "kind": "internship",
+      "field": "Data and ML",
+      "locations": [
+        "Milpitas, California"
+      ],
+      "url": "https://jobs.lever.co/saviynt/183188c3-c043-4f91-b3f0-30ec4961f4c7",
       "first_seen": "2026-10-27"
     },
     {
@@ -346,7 +1072,8 @@
       "field": "Hardware",
       "locations": [
         "EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01, CA",
-        "GOLETA-H01 ~ 6380 Hollister Ave ~ BLDG H01, CA"
+        "GOLETA-H01 ~ 6380 Hollister Ave ~ BLDG H01, CA",
+        "MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1, MA"
       ],
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Mechanical-Engineer-Intern--Summer-2027-_01884278",
       "first_seen": "2026-10-26"
@@ -891,7 +1618,8 @@
         "Columbus, Ohio"
       ],
       "url": "https://boards.greenhouse.io/pathrobotics/jobs/8911570002?gh_jid=8911570002",
-      "first_seen": "2026-10-25"
+      "first_seen": "2026-10-25",
+      "missed": 1
     },
     {
       "list_id": "2ab795c60a2e",
@@ -975,7 +1703,8 @@
         "Scottsdale, Arizona"
       ],
       "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/7837252003",
-      "first_seen": "2026-10-25"
+      "first_seen": "2026-10-25",
+      "missed": 1
     },
     {
       "list_id": "cbdef0b06ca8",
@@ -999,7 +1728,8 @@
         "Columbus, Ohio"
       ],
       "url": "https://boards.greenhouse.io/pathrobotics/jobs/8911569002?gh_jid=8911569002",
-      "first_seen": "2026-10-25"
+      "first_seen": "2026-10-25",
+      "missed": 1
     },
     {
       "list_id": "e754d4a3f8b0",
@@ -1047,8 +1777,7 @@
         "Los Angeles, CA"
       ],
       "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411921008",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "1f795686373f",
@@ -1060,8 +1789,7 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/36d75e36-eeb2-4399-8887-37c4a5ff5800",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "2279cbc4d1bf",
@@ -1134,8 +1862,7 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/89bb6fee-3cd2-4e0b-a1c2-c73de8c1f9bd",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "4494bda1968d",
@@ -1159,8 +1886,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5270409007",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "4a90506551b0",
@@ -1196,8 +1922,7 @@
         "New York"
       ],
       "url": "https://jobs.ashbyhq.com/patreon/ace576d6-f480-43b8-a529-549fefb2046d",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "7b69e40cb4c5",
@@ -1221,8 +1946,7 @@
         "Los Angeles, CA"
       ],
       "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411918008",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "816b95f085f2",
@@ -1270,8 +1994,7 @@
         "San Francisco, CA"
       ],
       "url": "https://job-boards.greenhouse.io/twitch/jobs/8886605002",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "985561b16944",
@@ -1331,8 +2054,7 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/d79ccbaa-2901-4303-bd90-675db7802366",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "b22fc105428d",
@@ -1356,22 +2078,7 @@
         "New York, New York"
       ],
       "url": "https://job-boards.greenhouse.io/oscar/jobs/8303588",
-      "first_seen": "2026-10-24",
-      "missed": 1
-    },
-    {
-      "list_id": "bb75ce462a56",
-      "employer": "Datadog",
-      "title": "Research Science Intern (PhD)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "New York, New York",
-        "Pittsburgh, Pennsylvania"
-      ],
-      "url": "https://careers.datadoghq.com/detail/8203657/?gh_jid=8203657",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "bda57f20245c",
@@ -1397,19 +2104,6 @@
       ],
       "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4719134005",
       "first_seen": "2026-10-24"
-    },
-    {
-      "list_id": "c38ee01f4b09",
-      "employer": "K2 Space",
-      "title": "Dynamics Engineering Intern - Summer 2027",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "Los Angeles, CA"
-      ],
-      "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411916008",
-      "first_seen": "2026-10-24",
-      "missed": 1
     },
     {
       "list_id": "cb9cc2aa49aa",
@@ -1457,8 +2151,7 @@
         "San Francisco, CA"
       ],
       "url": "https://job-boards.greenhouse.io/twitch/jobs/8886748002",
-      "first_seen": "2026-10-24",
-      "missed": 1
+      "first_seen": "2026-10-24"
     },
     {
       "list_id": "ead7b90edfc7",
@@ -1494,19 +2187,7 @@
         "CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105, IA"
       ],
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Advanced-Manufacturing-Engineering-Co-Op--Spring-Summer-2027-_01874253",
-      "first_seen": "2026-10-24"
-    },
-    {
-      "list_id": "04b300ff9c67",
-      "employer": "RTX",
-      "title": "Advanced Manufacturing Engineering Co-Op (Summer/Fall 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105, IA"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Advanced-Manufacturing-Engineering-Co-Op--Summer-Fall-2027-_01874261",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "missed": 1
     },
     {
@@ -1558,6 +2239,18 @@
       "first_seen": "2026-10-23"
     },
     {
+      "list_id": "1c0fba99296b",
+      "employer": "Cox",
+      "title": "Quality Operations Intern (Electric Vehicle Battery Solutions)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "United States"
+      ],
+      "url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Oklahoma-City-OK/Quality-Department-Intern--Electric-Vehicle-Battery-Solutions-_R202683550",
+      "first_seen": "2026-10-23"
+    },
+    {
       "list_id": "1ff2bf72254c",
       "employer": "Coinbase",
       "title": "Tax Information Reporting Intern",
@@ -1579,7 +2272,8 @@
         "United States"
       ],
       "url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Oklahoma-City-OK/Quality-Department-Intern--Electric-Vehicle-Battery-Solutions-_R202683550",
-      "first_seen": "2026-10-23"
+      "first_seen": "2026-10-23",
+      "missed": 1
     },
     {
       "list_id": "4302028cba0a",
@@ -1835,19 +2529,6 @@
       "first_seen": "2026-10-23"
     },
     {
-      "list_id": "cdf3406b7730",
-      "employer": "RTX",
-      "title": "Software Engineering Co-op (Spring/Summer 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131, IA"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01879727",
-      "first_seen": "2026-10-23",
-      "missed": 1
-    },
-    {
       "list_id": "cfabc2aa9f5c",
       "employer": "Intel",
       "title": "AI Hardware Engineering Intern",
@@ -1958,19 +2639,6 @@
       "first_seen": "2026-10-23"
     },
     {
-      "list_id": "f2b324a2ae3f",
-      "employer": "RTX",
-      "title": "Software Engineering Co-op (Summer /Fall 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131, IA"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer--Fall-2027-_01879739",
-      "first_seen": "2026-10-23",
-      "missed": 1
-    },
-    {
       "list_id": "fda7138bb57a",
       "employer": "1Password",
       "title": "Developer Intern, Front-End Platform - Winter 2027",
@@ -2005,32 +2673,6 @@
       ],
       "url": "https://athene.wd5.myworkdayjobs.com/athene_careers/job/West-Des-Moines-Iowa/Operations-Reporting---Analytics-Intern_R255268",
       "first_seen": "2026-10-22"
-    },
-    {
-      "list_id": "20173bca63e3",
-      "employer": "Target",
-      "title": "Designer Intern, Owned Brands- Minneapolis, MN (Starting Summer, 2027)",
-      "kind": "internship",
-      "field": "Product",
-      "locations": [
-        "1000 Nicollet Mall, Minneapolis,MN"
-      ],
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Designer-Intern--Owned-Brands--Minneapolis--MN--Starting-Summer--2027-_R0000478536-1",
-      "first_seen": "2026-10-22",
-      "missed": 1
-    },
-    {
-      "list_id": "351d0212ce02",
-      "employer": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Greater San Diego, CA (Starting Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "1288 Camino Del Rio N, San Diego,CA"
-      ],
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1288-Camino-Del-Rio-N-San-DiegoCA-92108-1511/Store-Executive-Intern--Store-Leadership-Intern----Southern-San-Diego--CA--Starting-Summer-2027-_R0000450290",
-      "first_seen": "2026-10-22",
-      "missed": 1
     },
     {
       "list_id": "8fa91be93e86",
@@ -2224,8 +2866,7 @@
         "United States"
       ],
       "url": "https://jobs.ashbyhq.com/clickhouse/558c0c16-5fde-407a-966b-7a2255d3531b",
-      "first_seen": "2026-10-21",
-      "missed": 1
+      "first_seen": "2026-10-21"
     },
     {
       "list_id": "d7b456f9c250",
@@ -2285,8 +2926,7 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/8a237302-3fe8-4403-b32b-7690f333ba52",
-      "first_seen": "2026-10-20",
-      "missed": 1
+      "first_seen": "2026-10-20"
     },
     {
       "list_id": "0d92423aafd0",
@@ -2310,8 +2950,7 @@
         "Los Angeles"
       ],
       "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5436468008",
-      "first_seen": "2026-10-20",
-      "missed": 1
+      "first_seen": "2026-10-20"
     },
     {
       "list_id": "1bba42e49db8",
@@ -2360,8 +2999,7 @@
         "San Francisco"
       ],
       "url": "https://jobs.ashbyhq.com/patreon/cefe07ab-ba4f-48cc-86b9-a88b1859a95c",
-      "first_seen": "2026-10-20",
-      "missed": 1
+      "first_seen": "2026-10-20"
     },
     {
       "list_id": "2615d0ff1a98",
@@ -2703,19 +3341,6 @@
       "first_seen": "2026-10-20"
     },
     {
-      "list_id": "a61c85422489",
-      "employer": "K2 Space",
-      "title": "Space Operations Engineering Intern - Summer 2027",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "Los Angeles"
-      ],
-      "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5447292008",
-      "first_seen": "2026-10-20",
-      "missed": 1
-    },
-    {
       "list_id": "a749dcbe4876",
       "employer": "Zipline",
       "title": "Materials Engineer Intern (Spring & Summer 2027)",
@@ -2857,8 +3482,7 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/1ac972b1-8094-4765-8869-63e1c4d50dea",
-      "first_seen": "2026-10-20",
-      "missed": 1
+      "first_seen": "2026-10-20"
     },
     {
       "list_id": "e8fa78eeddf8",
@@ -2885,19 +3509,6 @@
       "first_seen": "2026-10-20"
     },
     {
-      "list_id": "f8ac69ac052b",
-      "employer": "K2 Space",
-      "title": "Platform Engineering Intern - Summer 2027",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "Los Angeles"
-      ],
-      "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5447206008",
-      "first_seen": "2026-10-20",
-      "missed": 1
-    },
-    {
       "list_id": "fb4498b1dbc3",
       "employer": "Patreon",
       "title": "Product Design Intern - Summer 2027",
@@ -2907,8 +3518,7 @@
         "New York"
       ],
       "url": "https://jobs.ashbyhq.com/patreon/b492a008-4218-4ec8-91dc-0fb512027849",
-      "first_seen": "2026-10-20",
-      "missed": 1
+      "first_seen": "2026-10-20"
     },
     {
       "list_id": "0eb457bb320d",
@@ -3094,8 +3704,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5267197007",
-      "first_seen": "2026-10-18",
-      "missed": 1
+      "first_seen": "2026-10-18"
     },
     {
       "list_id": "1ede689dc23e",
@@ -3119,8 +3728,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238471007",
-      "first_seen": "2026-10-18",
-      "missed": 1
+      "first_seen": "2026-10-18"
     },
     {
       "list_id": "8d2e35e7e342",
@@ -3132,8 +3740,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238469007",
-      "first_seen": "2026-10-18",
-      "missed": 1
+      "first_seen": "2026-10-18"
     },
     {
       "list_id": "bb62899fb330",
@@ -3145,8 +3752,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5267198007",
-      "first_seen": "2026-10-18",
-      "missed": 1
+      "first_seen": "2026-10-18"
     },
     {
       "list_id": "3690880b3fcd",
@@ -3158,8 +3764,7 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/79fdda46-4ff5-42c7-b208-55f2084cdb8c",
-      "first_seen": "2026-10-17",
-      "missed": 1
+      "first_seen": "2026-10-17"
     },
     {
       "list_id": "42bbd168f534",
@@ -3171,8 +3776,7 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/ba62805c-ebe7-4b99-85af-f58c807b4dd1",
-      "first_seen": "2026-10-17",
-      "missed": 1
+      "first_seen": "2026-10-17"
     },
     {
       "list_id": "91ebed698ae6",
@@ -3193,11 +3797,10 @@
       "kind": "internship",
       "field": "Software",
       "locations": [
-        "San Mateo, California"
+        "Hayward, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/6e76d5fa-981e-4986-955b-602aa6ddcb1b",
-      "first_seen": "2026-10-17",
-      "missed": 1
+      "first_seen": "2026-10-17"
     },
     {
       "list_id": "aa3bbfd0ee5a",
@@ -3247,6 +3850,19 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872483002?gh_jid=8872483002",
+      "first_seen": "2026-10-16",
+      "missed": 1
+    },
+    {
+      "list_id": "0f2b1132ef77",
+      "employer": "Jabil",
+      "title": "Supply Chain Internships - Salt Lake City, UT",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Salt Lake City/Grantsville, UT"
+      ],
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Salt-Lake-CityGrantsville-UT/Supply-Chain-Internships---Salt-Lake-City--UT_J2468518",
       "first_seen": "2026-10-16"
     },
     {
@@ -3259,7 +3875,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872472002?gh_jid=8872472002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "264e48eb1247",
@@ -3271,7 +3888,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872468002?gh_jid=8872468002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "3406a35fd4b4",
@@ -3283,7 +3901,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872478002?gh_jid=8872478002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "416736b09245",
@@ -3295,7 +3914,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872474002?gh_jid=8872474002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "4f0c9a7370d0",
@@ -3307,7 +3927,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872479002?gh_jid=8872479002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "59507ebd7b1d",
@@ -3331,7 +3952,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872471002?gh_jid=8872471002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "6aa72af9e376",
@@ -3343,7 +3965,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872476002?gh_jid=8872476002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "74634ec53cff",
@@ -3355,7 +3978,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872470002?gh_jid=8872470002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "82bc523743df",
@@ -3367,7 +3991,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872480002?gh_jid=8872480002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "844632d4d268",
@@ -3391,7 +4016,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872578002?gh_jid=8872578002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "a05175a2dee2",
@@ -3403,6 +4029,19 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872477002?gh_jid=8872477002",
+      "first_seen": "2026-10-16",
+      "missed": 1
+    },
+    {
+      "list_id": "a7af8e5ed603",
+      "employer": "Jabil",
+      "title": "Supply Chain Internships - Memphis, TN",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "Memphis, TN"
+      ],
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Memphis-TN/Supply-Chain-Internships---Memphis--TN_J2468519",
       "first_seen": "2026-10-16"
     },
     {
@@ -3415,7 +4054,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872469002?gh_jid=8872469002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "cb708e5903eb",
@@ -3427,7 +4067,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8885631002?gh_jid=8885631002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "d294ad8b79c4",
@@ -3440,7 +4081,8 @@
         "Pittsburgh, PA"
       ],
       "url": "https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "daf28fedef3d",
@@ -3452,7 +4094,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872473002?gh_jid=8872473002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "dc1cf9133ee3",
@@ -3464,7 +4107,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872579002?gh_jid=8872579002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "e183f2e91a12",
@@ -3476,7 +4120,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872475002?gh_jid=8872475002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
     },
     {
       "list_id": "e9e306d4a514",
@@ -3489,7 +4134,32 @@
         "Pittsburgh, PA"
       ],
       "url": "https://careers.duolingo.com/jobs/8888721002?gh_jid=8888721002",
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-16",
+      "missed": 1
+    },
+    {
+      "list_id": "00a3ddb59f0e",
+      "employer": "Jabil",
+      "title": "Engineering Internships - Salt Lake City, UT",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Salt Lake City/Grantsville, UT"
+      ],
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Salt-Lake-CityGrantsville-UT/Engineering-Internships---Salt-Lake-City--UT_J2468445",
+      "first_seen": "2026-10-15"
+    },
+    {
+      "list_id": "04ef20e672cc",
+      "employer": "Jabil",
+      "title": "Engineering Internships - Memphis, TN",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Memphis, TN"
+      ],
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Memphis-TN/Engineering-Internships---Memphis--TN_J2468449",
+      "first_seen": "2026-10-15"
     },
     {
       "list_id": "174b5e649a1b",
@@ -3502,8 +4172,7 @@
         "San Francisco, CA"
       ],
       "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/8034205003",
-      "first_seen": "2026-10-15",
-      "missed": 1
+      "first_seen": "2026-10-15"
     },
     {
       "list_id": "3f2b9482b5b7",
@@ -3515,6 +4184,18 @@
         "San Diego, California"
       ],
       "url": "https://cubic.wd1.myworkdayjobs.com/cubic_USA_careers/job/San-Diego-California/Systems-Engineering-Execution-Intern_REQ_50178",
+      "first_seen": "2026-10-15"
+    },
+    {
+      "list_id": "443ad8db26ad",
+      "employer": "Jabil",
+      "title": "Supply Chain Internships - St. Petersburg, FL",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "St. Petersburg/Tampa, FL"
+      ],
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Supply-Chain-Internships---St-Petersburg--FL_J2468517-1",
       "first_seen": "2026-10-15"
     },
     {
@@ -3532,19 +4213,6 @@
       "first_seen": "2026-10-15"
     },
     {
-      "list_id": "5b85199ce9e7",
-      "employer": "RTX",
-      "title": "Electrical Engineering Intern (Summer 2027)(Onsite)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1, MA"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Electrical-Engineering-Intern--Summer-2027--Onsite-_01882705",
-      "first_seen": "2026-10-15",
-      "missed": 1
-    },
-    {
       "list_id": "8130110e6247",
       "employer": "Kikoff",
       "title": "Recruiting Coordination Intern",
@@ -3555,19 +4223,6 @@
       ],
       "url": "https://job-boards.greenhouse.io/kikoff/jobs/4450381009",
       "first_seen": "2026-10-15"
-    },
-    {
-      "list_id": "8d4b75f18e8a",
-      "employer": "Gusto",
-      "title": "Finance Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Finance",
-      "locations": [
-        "New York, NY - Hybrid"
-      ],
-      "url": "https://job-boards.greenhouse.io/gusto/jobs/8257115",
-      "first_seen": "2026-10-15",
-      "missed": 1
     },
     {
       "list_id": "e46d7b5abc9f",
@@ -3606,6 +4261,18 @@
       "first_seen": "2026-10-15"
     },
     {
+      "list_id": "1f7fd4d23ae8",
+      "employer": "RTX",
+      "title": "RF Systems Engineer Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01, CA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/RF-Systems-Engineer-Intern--Summer-2027-_01880552",
+      "first_seen": "2026-10-14"
+    },
+    {
       "list_id": "4fe6282605a9",
       "employer": "BorgWarner Inc.",
       "title": "HRIS Intern (May 2027 start)",
@@ -3639,8 +4306,19 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/ffc665c1-2aa6-4c2f-b04b-93a6fb7b5feb",
-      "first_seen": "2026-10-14",
-      "missed": 1
+      "first_seen": "2026-10-14"
+    },
+    {
+      "list_id": "d9e3b0613043",
+      "employer": "RTX",
+      "title": "Electro-Optics Systems Engineer Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01, CA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Electro-Optics-Systems-Engineer-Intern--Summer-2027-_01880582",
+      "first_seen": "2026-10-14"
     },
     {
       "list_id": "f671d86bc7d9",
@@ -3691,7 +4369,8 @@
         "Remote (United States)"
       ],
       "url": "https://jobs.ashbyhq.com/1password/75be57ce-1b7d-4e11-a105-69c1906ab320",
-      "first_seen": "2026-10-13"
+      "first_seen": "2026-10-13",
+      "missed": 1
     },
     {
       "list_id": "6d81e7fa9aab",
@@ -3752,7 +4431,8 @@
         "Remote (United States)"
       ],
       "url": "https://jobs.ashbyhq.com/1password/25a06bd3-2367-4cfc-8624-4c6d7c938459",
-      "first_seen": "2026-10-13"
+      "first_seen": "2026-10-13",
+      "missed": 1
     },
     {
       "list_id": "b232d4e1dcc4",
@@ -3788,7 +4468,8 @@
         "Remote (United States)"
       ],
       "url": "https://jobs.ashbyhq.com/1password/519a2f66-66ce-4903-9da9-56b8cf3aa4d8",
-      "first_seen": "2026-10-13"
+      "first_seen": "2026-10-13",
+      "missed": 1
     },
     {
       "list_id": "bb79cb33a00f",
@@ -3837,7 +4518,8 @@
         "Remote (United States)"
       ],
       "url": "https://jobs.ashbyhq.com/1password/412c1aac-13ce-4cc9-9c81-90a9a7a2ee48",
-      "first_seen": "2026-10-13"
+      "first_seen": "2026-10-13",
+      "missed": 1
     },
     {
       "list_id": "df6a0241b51a",
@@ -3873,7 +4555,8 @@
         "Palo Alto, California"
       ],
       "url": "https://wing.com/careers/8872482002?gh_jid=8872482002",
-      "first_seen": "2026-10-10"
+      "first_seen": "2026-10-10",
+      "missed": 1
     },
     {
       "list_id": "1de02fa6d5b5",
@@ -3948,6 +4631,20 @@
       "first_seen": "2026-10-09"
     },
     {
+      "list_id": "eafc4c4a8c3a",
+      "employer": "Jabil",
+      "title": "Automation Engineering Intern",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Clinton, MA",
+        "Devens, MA",
+        "United States"
+      ],
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Clinton-MA/Automation-Engineering-Intern_J2466618",
+      "first_seen": "2026-10-09"
+    },
+    {
       "list_id": "16bc4aa02a0e",
       "employer": "Figure AI",
       "title": "Firmware Engineering Intern [Winter 2027]",
@@ -3982,8 +4679,7 @@
         "San Francisco, CA"
       ],
       "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/8015269003",
-      "first_seen": "2026-10-08",
-      "missed": 1
+      "first_seen": "2026-10-08"
     },
     {
       "list_id": "d9844e6cfebc",
@@ -4081,7 +4777,8 @@
         "Detroit, MI"
       ],
       "url": "https://careers.duolingo.com/jobs/8863967002?gh_jid=8863967002",
-      "first_seen": "2026-10-07"
+      "first_seen": "2026-10-07",
+      "missed": 1
     },
     {
       "list_id": "e81fbecdedc3",
@@ -4106,7 +4803,8 @@
         "Bedford, NH"
       ],
       "url": "https://aoins.wd5.myworkdayjobs.com/Concord/job/Bedford-NH/Claims-Representative-Intern_R_14464",
-      "first_seen": "2026-10-06"
+      "first_seen": "2026-10-06",
+      "missed": 1
     },
     {
       "list_id": "054123d829c4",
@@ -4234,6 +4932,18 @@
       "first_seen": "2026-10-06"
     },
     {
+      "list_id": "5413d23a416d",
+      "employer": "RTX",
+      "title": "Digital Technology Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC, CT"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Digital-Technology-Intern--Summer-2027-_01867772",
+      "first_seen": "2026-10-05"
+    },
+    {
       "list_id": "6ee9bd67b0de",
       "employer": "Adobe",
       "title": "2027 Intern - Applied and Research Scientist/Engineer",
@@ -4258,7 +4968,8 @@
         "Mountain View, CA"
       ],
       "url": "https://job-boards.greenhouse.io/kodiak/jobs/4430607009",
-      "first_seen": "2026-10-04"
+      "first_seen": "2026-10-04",
+      "missed": 1
     },
     {
       "list_id": "054faec02597",
@@ -4282,8 +4993,7 @@
         "Emeryville, California"
       ],
       "url": "https://job-boards.greenhouse.io/profluent/jobs/5441955008",
-      "first_seen": "2026-10-03",
-      "missed": 1
+      "first_seen": "2026-10-03"
     },
     {
       "list_id": "1c14872d1d8a",
@@ -4475,8 +5185,7 @@
         "Emeryville, California"
       ],
       "url": "https://job-boards.greenhouse.io/profluent/jobs/5441954008",
-      "first_seen": "2026-10-03",
-      "missed": 1
+      "first_seen": "2026-10-03"
     },
     {
       "list_id": "8f0359055c79",
@@ -4661,6 +5370,18 @@
       "first_seen": "2026-10-02"
     },
     {
+      "list_id": "2c69b4bc69ac",
+      "employer": "Astranis",
+      "title": "Automation & Controls Engineering Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4718203006",
+      "first_seen": "2026-10-02"
+    },
+    {
       "list_id": "6034cbd58571",
       "employer": "RTX",
       "title": "Aircraft Operations Aviation Intern (Summer 2027)",
@@ -4670,6 +5391,42 @@
         "EAST GRANBY-200 ~ 200 Signature Way ~ OFFICE, CT"
       ],
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-GRANBY-200--200-Signature-Way--OFFICE/Aircraft-Operations-Aviation-Intern--Summer-2027-_01877881",
+      "first_seen": "2026-10-02"
+    },
+    {
+      "list_id": "832acd018fce",
+      "employer": "Astranis",
+      "title": "RF Hardware Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4708436006",
+      "first_seen": "2026-10-02"
+    },
+    {
+      "list_id": "8729a522e79a",
+      "employer": "Astranis",
+      "title": "Radiation Effects Engineer Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704335006",
+      "first_seen": "2026-10-02"
+    },
+    {
+      "list_id": "b519e2f9158a",
+      "employer": "Astranis",
+      "title": "Automation & Controls Engineering Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4718206006",
       "first_seen": "2026-10-02"
     },
     {
@@ -4694,6 +5451,18 @@
         "Chicago"
       ],
       "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4796143101",
+      "first_seen": "2026-10-02"
+    },
+    {
+      "list_id": "f691712f0b7a",
+      "employer": "Astranis",
+      "title": "RF Hardware Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4708417006",
       "first_seen": "2026-10-02"
     },
     {
@@ -4779,7 +5548,8 @@
         "Remote"
       ],
       "url": "https://job-boards.greenhouse.io/keepersecurity/jobs/4423148009",
-      "first_seen": "2026-09-30"
+      "first_seen": "2026-09-30",
+      "missed": 1
     },
     {
       "list_id": "081aaa55fa2f",
@@ -4865,6 +5635,18 @@
         "New York, NY (HQ)"
       ],
       "url": "https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74",
+      "first_seen": "2026-09-27"
+    },
+    {
+      "list_id": "acf32966a6be",
+      "employer": "Astranis",
+      "title": "Electrical Integration Intern - Avionics (Winter 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704826006",
       "first_seen": "2026-09-27"
     },
     {
@@ -4978,6 +5760,162 @@
       "first_seen": "2026-09-26"
     },
     {
+      "list_id": "02ab5caa4e1a",
+      "employer": "Astranis",
+      "title": "RF Validation Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4716184006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "040136357261",
+      "employer": "Astranis",
+      "title": "Electrical Integration Intern - RF (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4715788006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "3719226003a5",
+      "employer": "Astranis",
+      "title": "Harness Design Engineer Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704778006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "43610ddcb4ea",
+      "employer": "Astranis",
+      "title": "FPGA Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704803006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "460198c68ad8",
+      "employer": "Astranis",
+      "title": "Software Defined Radio Hardware Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4716087006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "777dd934f66f",
+      "employer": "Astranis",
+      "title": "Software Developer, Network Software Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705599006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "7d3814305a11",
+      "employer": "Astranis",
+      "title": "Propulsion Engineer Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4713184006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "825b5b016438",
+      "employer": "Astranis",
+      "title": "Supplier Quality Engineer Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4715989006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "860f9ba95ff8",
+      "employer": "Astranis",
+      "title": "Thermal Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704818006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "89ed088d5b72",
+      "employer": "Astranis",
+      "title": "Technical Project Management Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4708364006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "9f0763c9e9be",
+      "employer": "Astranis",
+      "title": "Thermal Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704820006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "a0b37697ad65",
+      "employer": "Astranis",
+      "title": "FPGA Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704805006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "a37b22b69efe",
+      "employer": "Astranis",
+      "title": "Propulsion Engineer Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4713183006",
+      "first_seen": "2026-09-25"
+    },
+    {
       "list_id": "a89f696aca92",
       "employer": "SeatGeek",
       "title": "Software Engineer - Internship",
@@ -4999,6 +5937,18 @@
         "US-California-Palo Alto"
       ],
       "url": "https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Cloud-Media-Services-Intern_R108186",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "b4f87b890cb2",
+      "employer": "Astranis",
+      "title": "Software Defined Radio Hardware Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4716088006",
       "first_seen": "2026-09-25"
     },
     {
@@ -5027,6 +5977,42 @@
       "first_seen": "2026-09-25"
     },
     {
+      "list_id": "d209f51f0add",
+      "employer": "Astranis",
+      "title": "RF Validation Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4716499006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "e0820f021ba1",
+      "employer": "Astranis",
+      "title": "Harness Design Engineer Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704779006",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "list_id": "ec9abc42eb01",
+      "employer": "Astranis",
+      "title": "Technical Project Management Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4708369006",
+      "first_seen": "2026-09-25"
+    },
+    {
       "list_id": "faca9385a435",
       "employer": "Notion",
       "title": "Software Engineer Intern, Mobile (Winter 2027)",
@@ -5051,6 +6037,90 @@
       "first_seen": "2026-09-24"
     },
     {
+      "list_id": "0acd15f75f5b",
+      "employer": "Astranis",
+      "title": "Assembly, Integration, and Test Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704761006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "1702d351ed01",
+      "employer": "Astranis",
+      "title": "Electrical Reliability Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704782006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "2b0be23579a8",
+      "employer": "Astranis",
+      "title": "Avionics Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4706024006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "2fde59c543f4",
+      "employer": "Astranis",
+      "title": "Electrical Reliability Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704784006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "39d1204c8468",
+      "employer": "Astranis",
+      "title": "Antenna Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704274006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "4532b90f0b6f",
+      "employer": "Astranis",
+      "title": "Power Electronics Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4706425006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "53420d1909ba",
+      "employer": "Astranis",
+      "title": "Assembly, Integration, and Test Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704759006",
+      "first_seen": "2026-09-23"
+    },
+    {
       "list_id": "5b644c23499b",
       "employer": "Hermeus",
       "title": "Propulsion Test Engineering Intern - Spring/Summer/Fall 2027",
@@ -5072,6 +6142,102 @@
         "Atlanta, GA"
       ],
       "url": "https://jobs.lever.co/hermeus/ee3a4109-b6e7-4ed5-8981-a483b3936e5a",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "9ab86e48d130",
+      "employer": "Astranis",
+      "title": "Propulsion Test Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705640006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "a820b0891acd",
+      "employer": "Astranis",
+      "title": "Avionics Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4706025006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "ad61b832b7a6",
+      "employer": "Astranis",
+      "title": "Flight Software Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704595006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "c514dd41a65b",
+      "employer": "Astranis",
+      "title": "Flight Software Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704598006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "c70b43d9e1c0",
+      "employer": "Astranis",
+      "title": "Antenna Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704284006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "cb25f41c557f",
+      "employer": "Astranis",
+      "title": "Power Electronics Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4706427006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "de6117a23691",
+      "employer": "Astranis",
+      "title": "Guidance, Navigation, and Control Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705172006",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "list_id": "fecae3b33b33",
+      "employer": "Astranis",
+      "title": "Hardware Test Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4707012006",
       "first_seen": "2026-09-23"
     },
     {
@@ -5181,8 +6347,31 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238468007",
-      "first_seen": "2026-09-20",
-      "missed": 1
+      "first_seen": "2026-09-20"
+    },
+    {
+      "list_id": "01229d62b383",
+      "employer": "Astranis",
+      "title": "Network Planning Sales Engineer Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco, California"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704276006",
+      "first_seen": "2026-09-19"
+    },
+    {
+      "list_id": "1a66718185fc",
+      "employer": "Astranis",
+      "title": "Production Quality Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705675006",
+      "first_seen": "2026-09-19"
     },
     {
       "list_id": "33f01d68c6e4",
@@ -5194,6 +6383,67 @@
         "Chicago, IL"
       ],
       "url": "https://www.akunacapital.com/careers/job/8109370/?gh_jid=8109370",
+      "first_seen": "2026-09-19",
+      "missed": 1
+    },
+    {
+      "list_id": "46d84cee19a9",
+      "employer": "Astranis",
+      "title": "Environmental Test Engineer Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705652006",
+      "first_seen": "2026-09-19"
+    },
+    {
+      "list_id": "680be76c4d9e",
+      "employer": "Astranis",
+      "title": "Propulsion Manufacturing Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705648006",
+      "first_seen": "2026-09-19"
+    },
+    {
+      "list_id": "7d25a03728a9",
+      "employer": "Astranis",
+      "title": "Production Quality Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705677006",
+      "first_seen": "2026-09-19"
+    },
+    {
+      "list_id": "c90377465d78",
+      "employer": "Astranis",
+      "title": "Harness Manufacturing Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705255006",
+      "first_seen": "2026-09-19"
+    },
+    {
+      "list_id": "d56b977e8245",
+      "employer": "Astranis",
+      "title": "Propulsion Manufacturing Intern (Winter 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "San Francisco"
+      ],
+      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705649006",
       "first_seen": "2026-09-19"
     },
     {
@@ -5206,8 +6456,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238467007",
-      "first_seen": "2026-09-18",
-      "missed": 1
+      "first_seen": "2026-09-18"
     },
     {
       "list_id": "624669a11559",
@@ -5219,8 +6468,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238461007",
-      "first_seen": "2026-09-18",
-      "missed": 1
+      "first_seen": "2026-09-18"
     },
     {
       "list_id": "86b34999261d",
@@ -5232,8 +6480,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238460007",
-      "first_seen": "2026-09-18",
-      "missed": 1
+      "first_seen": "2026-09-18"
     },
     {
       "list_id": "ae73403a268b",
@@ -5257,8 +6504,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238462007",
-      "first_seen": "2026-09-18",
-      "missed": 1
+      "first_seen": "2026-09-18"
     },
     {
       "list_id": "f0d345dab36c",
@@ -5270,8 +6516,7 @@
         "San Francisco"
       ],
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238411007",
-      "first_seen": "2026-09-18",
-      "missed": 1
+      "first_seen": "2026-09-18"
     },
     {
       "list_id": "1d7fa2a21d8f",
@@ -5295,7 +6540,8 @@
         "New York City"
       ],
       "url": "https://jobs.ashbyhq.com/gecko-robotics/01138338-ff3c-4982-8ba3-5401386bf082",
-      "first_seen": "2026-09-17"
+      "first_seen": "2026-09-17",
+      "missed": 1
     },
     {
       "list_id": "26a32e34b0ee",
@@ -5307,7 +6553,8 @@
         "San Francisco"
       ],
       "url": "https://jobs.ashbyhq.com/physicalintelligence/0bcf909e-b38b-4276-91a1-e55c4c56a33a",
-      "first_seen": "2026-09-17"
+      "first_seen": "2026-09-17",
+      "missed": 1
     },
     {
       "list_id": "4a84f77ba36f",
@@ -5319,7 +6566,8 @@
         "United States"
       ],
       "url": "https://job-boards.greenhouse.io/singlestore/jobs/8205514",
-      "first_seen": "2026-09-17"
+      "first_seen": "2026-09-17",
+      "missed": 1
     },
     {
       "list_id": "73032e1085b7",
@@ -5331,7 +6579,8 @@
         "Pittsburgh"
       ],
       "url": "https://jobs.ashbyhq.com/gecko-robotics/24561868-f075-4edf-a991-59ff0174e92a",
-      "first_seen": "2026-09-17"
+      "first_seen": "2026-09-17",
+      "missed": 1
     },
     {
       "list_id": "7953b46eedcc",
@@ -5355,7 +6604,8 @@
         "Pittsburgh"
       ],
       "url": "https://jobs.ashbyhq.com/gecko-robotics/07b4bc1b-500f-493c-ab28-383b543a3e85",
-      "first_seen": "2026-09-17"
+      "first_seen": "2026-09-17",
+      "missed": 1
     },
     {
       "list_id": "9c3c48715f09",
@@ -5367,7 +6617,8 @@
         "New York City"
       ],
       "url": "https://jobs.ashbyhq.com/gecko-robotics/c097505b-0a28-4a33-a917-268f463641e8",
-      "first_seen": "2026-09-17"
+      "first_seen": "2026-09-17",
+      "missed": 1
     },
     {
       "list_id": "03858df350a0",
@@ -5447,7 +6698,7 @@
     {
       "list_id": "4e7d461d3c87",
       "employer": "Intel",
-      "title": "Module Engineering - PhD Intern",
+      "title": "Module Engineering (PhD Intern)",
       "kind": "internship",
       "field": "Software",
       "locations": [
@@ -5587,6 +6838,20 @@
       "first_seen": "2026-09-11"
     },
     {
+      "list_id": "414e0ece0c40",
+      "employer": "Intel",
+      "title": "AI Software Engineering PhD Intern",
+      "kind": "internship",
+      "field": "Data and ML",
+      "locations": [
+        "United States",
+        "US, Arizona, Phoenix",
+        "US, Oregon, Hillsboro"
+      ],
+      "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/AI-Software-Engineering-PhD-Intern_JR0286730",
+      "first_seen": "2026-09-11"
+    },
+    {
       "list_id": "58e092483a89",
       "employer": "Bedrock Robotics",
       "title": "2027 Internship Sensor Systems Engineer",
@@ -5681,6 +6946,18 @@
         "Nashville, Tennessee"
       ],
       "url": "https://abglobal.wd1.myworkdayjobs.com/abcampuscareers/job/Nashville-Tennessee/Investment-Management-Operations-Summer-Intern_R0019775",
+      "first_seen": "2026-09-11"
+    },
+    {
+      "list_id": "a60ebeb274c4",
+      "employer": "Target",
+      "title": "Associate Buyer Internship - Minneapolis, MN (Starting Summer, 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "1000 Nicollet Mall, Minneapolis,MN"
+      ],
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Associate-Buyer-Internship---Minneapolis--MN--Starting-Summer--2027-_R0000450961",
       "first_seen": "2026-09-11"
     },
     {
@@ -6114,8 +7391,19 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/e541e878-567c-4c03-add8-baf19c63418f",
-      "first_seen": "2026-09-07",
-      "missed": 1
+      "first_seen": "2026-09-07"
+    },
+    {
+      "list_id": "7036894821f4",
+      "employer": "Skydio",
+      "title": "Autonomy Engineer Intern, Computer Vision / Deep Learning, 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Mateo, California"
+      ],
+      "url": "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
+      "first_seen": "2026-09-07"
     },
     {
       "list_id": "9bca521d6e92",
@@ -6127,7 +7415,8 @@
         "Moses Lake, Washington"
       ],
       "url": "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/5708088004",
-      "first_seen": "2026-09-07"
+      "first_seen": "2026-09-07",
+      "missed": 1
     },
     {
       "list_id": "a446fa9f9c38",
@@ -6139,21 +7428,7 @@
         "San Mateo, California"
       ],
       "url": "https://jobs.ashbyhq.com/skydio/3eb06d6e-b6f0-4814-a80a-f1c43075873b",
-      "first_seen": "2026-09-07",
-      "missed": 1
-    },
-    {
-      "list_id": "aade396df520",
-      "employer": "Skydio",
-      "title": "Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Mateo, California"
-      ],
-      "url": "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
-      "first_seen": "2026-09-07",
-      "missed": 1
+      "first_seen": "2026-09-07"
     },
     {
       "list_id": "ccafb2e5bbeb",
@@ -6165,7 +7440,8 @@
         "Kent, Washington"
       ],
       "url": "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6176786004",
-      "first_seen": "2026-09-07"
+      "first_seen": "2026-09-07",
+      "missed": 1
     },
     {
       "list_id": "e0223550bc62",
@@ -6179,7 +7455,8 @@
         "Moses Lake, Washington"
       ],
       "url": "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6175828004",
-      "first_seen": "2026-09-07"
+      "first_seen": "2026-09-07",
+      "missed": 1
     },
     {
       "list_id": "e12e2bc623ef",
@@ -6191,7 +7468,8 @@
         "Kent, Washington"
       ],
       "url": "https://job-boards.greenhouse.io/stokespacetechnologies/jobs/6176785004",
-      "first_seen": "2026-09-07"
+      "first_seen": "2026-09-07",
+      "missed": 1
     },
     {
       "list_id": "0605451b2e17",
@@ -6203,7 +7481,8 @@
         "Mountain View, CA"
       ],
       "url": "https://job-boards.greenhouse.io/kodiak/jobs/4396622009",
-      "first_seen": "2026-09-06"
+      "first_seen": "2026-09-06",
+      "missed": 1
     },
     {
       "list_id": "4279e28e5820",
@@ -6215,7 +7494,8 @@
         "New York City, New York"
       ],
       "url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6164698004",
-      "first_seen": "2026-09-06"
+      "first_seen": "2026-09-06",
+      "missed": 1
     },
     {
       "list_id": "1cd490131c01",
@@ -6770,32 +8050,6 @@
       "first_seen": "2026-09-01"
     },
     {
-      "list_id": "c48a0f487786",
-      "employer": "Shield AI",
-      "title": "Summer 2027 - Advanced Manufacturing Engineering Intern",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "Dallas, Texas"
-      ],
-      "url": "https://jobs.lever.co/shieldai/c41c41a2-83d8-41a0-8a3b-ff8b84dc1c8a",
-      "first_seen": "2026-09-01",
-      "missed": 1
-    },
-    {
-      "list_id": "4c13bae109ac",
-      "employer": "RTX",
-      "title": "Materials Management & Logistics Internship Program (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC, CT"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Materials-Management---Logistics-Internship-Program--Summer-2027-_01862953-1",
-      "first_seen": "2026-08-31",
-      "missed": 1
-    },
-    {
       "list_id": "caa1f250b72e",
       "employer": "Palantir",
       "title": "Forward Deployed Infrastructure Engineer, New Grad - US Government",
@@ -6809,6 +8063,203 @@
     }
   ],
   "closed": [
+    {
+      "list_id": "04b300ff9c67",
+      "employer": "RTX",
+      "title": "Advanced Manufacturing Engineering Co-Op (Summer/Fall 2027)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "CEDAR RAPIDS-105 ~ 400 Collins Rd NE ~ BLDG 105, IA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-105--400-Collins-Rd-NE--BLDG-105/Advanced-Manufacturing-Engineering-Co-Op--Summer-Fall-2027-_01874261",
+      "first_seen": "2026-10-23",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "20173bca63e3",
+      "employer": "Target",
+      "title": "Designer Intern, Owned Brands- Minneapolis, MN (Starting Summer, 2027)",
+      "kind": "internship",
+      "field": "Product",
+      "locations": [
+        "1000 Nicollet Mall, Minneapolis,MN"
+      ],
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Designer-Intern--Owned-Brands--Minneapolis--MN--Starting-Summer--2027-_R0000478536-1",
+      "first_seen": "2026-10-22",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "351d0212ce02",
+      "employer": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Greater San Diego, CA (Starting Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "1288 Camino Del Rio N, San Diego,CA"
+      ],
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1288-Camino-Del-Rio-N-San-DiegoCA-92108-1511/Store-Executive-Intern--Store-Leadership-Intern----Southern-San-Diego--CA--Starting-Summer-2027-_R0000450290",
+      "first_seen": "2026-10-22",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "4c13bae109ac",
+      "employer": "RTX",
+      "title": "Materials Management & Logistics Internship Program (Summer 2027)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "EAST HARTFORD-ETC ~ 400 Main St ~ BLDG ETC, CT"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/Materials-Management---Logistics-Internship-Program--Summer-2027-_01862953-1",
+      "first_seen": "2026-08-31",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "5b85199ce9e7",
+      "employer": "RTX",
+      "title": "Electrical Engineering Intern (Summer 2027)(Onsite)",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "MARLBOROUGH-MA1 ~ 1001 Boston Post Rd ~ BLDG 1, MA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Electrical-Engineering-Intern--Summer-2027--Onsite-_01882705",
+      "first_seen": "2026-10-15",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "8d4b75f18e8a",
+      "employer": "Gusto",
+      "title": "Finance Intern (Summer 2027)",
+      "kind": "internship",
+      "field": "Finance",
+      "locations": [
+        "New York, NY - Hybrid"
+      ],
+      "url": "https://job-boards.greenhouse.io/gusto/jobs/8257115",
+      "first_seen": "2026-10-15",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "a61c85422489",
+      "employer": "K2 Space",
+      "title": "Space Operations Engineering Intern - Summer 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Los Angeles"
+      ],
+      "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5447292008",
+      "first_seen": "2026-10-20",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "aade396df520",
+      "employer": "Skydio",
+      "title": "Autonomy Engineer Intern, Computer Vision / Deep Learning, Summer 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "San Mateo, California"
+      ],
+      "url": "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9",
+      "first_seen": "2026-09-07",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "bb75ce462a56",
+      "employer": "Datadog",
+      "title": "Research Science Intern (PhD)",
+      "kind": "internship",
+      "field": "Other",
+      "locations": [
+        "New York, New York",
+        "Pittsburgh, Pennsylvania"
+      ],
+      "url": "https://careers.datadoghq.com/detail/8203657/?gh_jid=8203657",
+      "first_seen": "2026-10-24",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "c38ee01f4b09",
+      "employer": "K2 Space",
+      "title": "Dynamics Engineering Intern - Summer 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Los Angeles, CA"
+      ],
+      "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411916008",
+      "first_seen": "2026-10-24",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "c48a0f487786",
+      "employer": "Shield AI",
+      "title": "Summer 2027 - Advanced Manufacturing Engineering Intern",
+      "kind": "internship",
+      "field": "Hardware",
+      "locations": [
+        "Dallas, Texas"
+      ],
+      "url": "https://jobs.lever.co/shieldai/c41c41a2-83d8-41a0-8a3b-ff8b84dc1c8a",
+      "first_seen": "2026-09-01",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "cdf3406b7730",
+      "employer": "RTX",
+      "title": "Software Engineering Co-op (Spring/Summer 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131, IA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Spring-Summer-2027-_01879727",
+      "first_seen": "2026-10-23",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "f2b324a2ae3f",
+      "employer": "RTX",
+      "title": "Software Engineering Co-op (Summer /Fall 2027)",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "CEDAR RAPIDS-131 ~ 5450 C Ave NE ~ BLDG 131, IA"
+      ],
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-131--5450-C-Ave-NE--BLDG-131/Software-Engineering-Co-op--Summer--Fall-2027-_01879739",
+      "first_seen": "2026-10-23",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
+    {
+      "list_id": "f8ac69ac052b",
+      "employer": "K2 Space",
+      "title": "Platform Engineering Intern - Summer 2027",
+      "kind": "internship",
+      "field": "Software",
+      "locations": [
+        "Los Angeles"
+      ],
+      "url": "https://job-boards.greenhouse.io/k2spacecorporation/jobs/5447206008",
+      "first_seen": "2026-10-20",
+      "missed": 1,
+      "closed_on": "2026-10-28"
+    },
     {
       "list_id": "01aaef9f3fed",
       "employer": "Hermeus",
@@ -7002,21 +8453,6 @@
       ],
       "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Information-Security-Engineer-Undergraduate-Intern_JR0287588",
       "first_seen": "2026-10-21",
-      "missed": 1,
-      "closed_on": "2026-10-27"
-    },
-    {
-      "list_id": "1f7fd4d23ae8",
-      "employer": "RTX",
-      "title": "RF Systems Engineer Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01, CA",
-        "GOLETA-H01 ~ 6380 Hollister Ave ~ BLDG H01, CA"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/RF-Systems-Engineer-Intern--Summer-2027-_01880552",
-      "first_seen": "2026-10-14",
       "missed": 1,
       "closed_on": "2026-10-27"
     },
@@ -7376,21 +8812,6 @@
       "closed_on": "2026-10-27"
     },
     {
-      "list_id": "6d0da16e99ba",
-      "employer": "RTX",
-      "title": "Mechanical Engineering Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "LARGO-382SS ~ 7887 Bryan Dairy Rd. ~ BLDG 100, FL",
-        "MCKINNEY-513WC ~ 2501 W University Dr ~ WING C BLDG, TX"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-FL-LARGO-382SS--7887-Bryan-Dairy-Rd--BLDG-100/Mechanical-Engineering-Intern--Summer-2027-_01882896",
-      "first_seen": "2026-10-21",
-      "missed": 1,
-      "closed_on": "2026-10-27"
-    },
-    {
       "list_id": "6f13ac1d1fd9",
       "employer": "RTX",
       "title": "Customer Quality Engineering Co-Op (Summer/Fall 2027)",
@@ -7520,20 +8941,6 @@
       "closed_on": "2026-10-27"
     },
     {
-      "list_id": "8ef56193d84c",
-      "employer": "RTX",
-      "title": "Electrical Engineering Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "EL SEGUNDO-E04 ~ 2006 E El Segundo Blvd ~ BLDG E04, CA"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/Electrical-Engineering-Intern--Summer-2027-_01883021",
-      "first_seen": "2026-10-21",
-      "missed": 1,
-      "closed_on": "2026-10-27"
-    },
-    {
       "list_id": "90dc05b7f17c",
       "employer": "Zipline",
       "title": "Long Range Platform Hardware Engineering Intern (Summer 2027)",
@@ -7656,20 +9063,6 @@
       ],
       "url": "https://travelers.wd5.myworkdayjobs.com/External/job/IL---Chicago/Bond-and-Specialty-Insurance-Intern--Underwriting-Professional-Development-Program_R-53090",
       "first_seen": "2026-10-11",
-      "missed": 1,
-      "closed_on": "2026-10-27"
-    },
-    {
-      "list_id": "ab1bade03f88",
-      "employer": "RTX",
-      "title": "Systems Engineering Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "SAN DIEGO-SD1 ~ 8650 Balboa Ave ~ SAN ANTONIO BLDG, CA"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-SAN-DIEGO-SD1--8650-Balboa-Ave--SAN-ANTONIO-BLDG/Systems-Engineering-Intern--Summer-2027-_01880911",
-      "first_seen": "2026-10-19",
       "missed": 1,
       "closed_on": "2026-10-27"
     },
@@ -7972,21 +9365,6 @@
       "closed_on": "2026-10-27"
     },
     {
-      "list_id": "d9e3b0613043",
-      "employer": "RTX",
-      "title": "Electro-Optics Systems Engineer Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "EL SEGUNDO-E01 ~ 2000 E El Segundo Blvd ~ BLDG E01, CA",
-        "GOLETA-H01 ~ 6380 Hollister Ave ~ BLDG H01, CA"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E01--2000-E-El-Segundo-Blvd--BLDG-E01/Electro-Optics-Systems-Engineer-Intern--Summer-2027-_01880582",
-      "first_seen": "2026-10-14",
-      "missed": 1,
-      "closed_on": "2026-10-27"
-    },
-    {
       "list_id": "dabd670f90b2",
       "employer": "RTX",
       "title": "Electrical Test Engineering Intern (Summer 2027)",
@@ -8200,62 +9578,6 @@
       "closed_on": "2026-10-27"
     },
     {
-      "list_id": "01229d62b383",
-      "employer": "Astranis",
-      "title": "Network Planning Sales Engineer Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco, California"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704276006",
-      "first_seen": "2026-09-19",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "02ab5caa4e1a",
-      "employer": "Astranis",
-      "title": "RF Validation Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4716184006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "040136357261",
-      "employer": "Astranis",
-      "title": "Electrical Integration Intern - RF (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4715788006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "0acd15f75f5b",
-      "employer": "Astranis",
-      "title": "Assembly, Integration, and Test Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704761006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
       "list_id": "0e43b5507c89",
       "employer": "SingleStore",
       "title": "MIT- Software Engineer Intern | Helios",
@@ -8270,48 +9592,6 @@
       "closed_on": "2026-10-26"
     },
     {
-      "list_id": "0f2b1132ef77",
-      "employer": "Jabil",
-      "title": "Supply Chain Internships - Salt Lake City, UT",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "Salt Lake City/Grantsville, UT"
-      ],
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Salt-Lake-CityGrantsville-UT/Supply-Chain-Internships---Salt-Lake-City--UT_J2468518",
-      "first_seen": "2026-10-16",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "1702d351ed01",
-      "employer": "Astranis",
-      "title": "Electrical Reliability Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704782006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "1a66718185fc",
-      "employer": "Astranis",
-      "title": "Production Quality Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705675006",
-      "first_seen": "2026-09-19",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
       "list_id": "1f40eb58a537",
       "employer": "1X",
       "title": "Internship - CNC Machine Park",
@@ -8322,48 +9602,6 @@
       ],
       "url": "https://jobs.ashbyhq.com/1x/ebc45d87-58d7-40d8-9e3d-5f3c8aa5eb48",
       "first_seen": "2026-09-20",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "2b0be23579a8",
-      "employer": "Astranis",
-      "title": "Avionics Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4706024006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "2c69b4bc69ac",
-      "employer": "Astranis",
-      "title": "Automation & Controls Engineering Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4718203006",
-      "first_seen": "2026-10-02",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "2fde59c543f4",
-      "employer": "Astranis",
-      "title": "Electrical Reliability Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704784006",
-      "first_seen": "2026-09-23",
       "missed": 1,
       "closed_on": "2026-10-26"
     },
@@ -8383,20 +9621,6 @@
       "closed_on": "2026-10-26"
     },
     {
-      "list_id": "3719226003a5",
-      "employer": "Astranis",
-      "title": "Harness Design Engineer Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704778006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
       "list_id": "3950798e33d1",
       "employer": "Travelers",
       "title": "Claim Professional Development Program Internship (CPDP Intern)",
@@ -8407,34 +9631,6 @@
       ],
       "url": "https://travelers.wd5.myworkdayjobs.com/External/job/OR---Lake-Oswego/Claim-Professional-Development-Program-Internship--CPDP-Intern-_R-52830",
       "first_seen": "2026-10-09",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "39d1204c8468",
-      "employer": "Astranis",
-      "title": "Antenna Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704274006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "43610ddcb4ea",
-      "employer": "Astranis",
-      "title": "FPGA Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704803006",
-      "first_seen": "2026-09-25",
       "missed": 1,
       "closed_on": "2026-10-26"
     },
@@ -8453,48 +9649,6 @@
       "closed_on": "2026-10-26"
     },
     {
-      "list_id": "4532b90f0b6f",
-      "employer": "Astranis",
-      "title": "Power Electronics Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4706425006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "460198c68ad8",
-      "employer": "Astranis",
-      "title": "Software Defined Radio Hardware Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4716087006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "46d84cee19a9",
-      "employer": "Astranis",
-      "title": "Environmental Test Engineer Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705652006",
-      "first_seen": "2026-09-19",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
       "list_id": "50085c7a7e2f",
       "employer": "1X",
       "title": "Internship - Manufacturing Engineering",
@@ -8505,20 +9659,6 @@
       ],
       "url": "https://jobs.ashbyhq.com/1x/d687b375-8136-4e6f-baa6-369b89366050",
       "first_seen": "2026-09-17",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "53420d1909ba",
-      "employer": "Astranis",
-      "title": "Assembly, Integration, and Test Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704759006",
-      "first_seen": "2026-09-23",
       "missed": 1,
       "closed_on": "2026-10-26"
     },
@@ -8551,20 +9691,6 @@
       "closed_on": "2026-10-26"
     },
     {
-      "list_id": "680be76c4d9e",
-      "employer": "Astranis",
-      "title": "Propulsion Manufacturing Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705648006",
-      "first_seen": "2026-09-19",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
       "list_id": "71fa88781c48",
       "employer": "Travelers",
       "title": "Business Insurance Intern: Underwriting Professional Development Program (UPDP)",
@@ -8575,118 +9701,6 @@
       ],
       "url": "https://travelers.wd5.myworkdayjobs.com/External/job/KS---Overland-Park/Business-Insurance-Intern--Underwriting-Professional-Development-Program--UPDP-_R-53089",
       "first_seen": "2026-10-11",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "777dd934f66f",
-      "employer": "Astranis",
-      "title": "Software Developer, Network Software Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705599006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "7d25a03728a9",
-      "employer": "Astranis",
-      "title": "Production Quality Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705677006",
-      "first_seen": "2026-09-19",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "7d3814305a11",
-      "employer": "Astranis",
-      "title": "Propulsion Engineer Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4713184006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "825b5b016438",
-      "employer": "Astranis",
-      "title": "Supplier Quality Engineer Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4715989006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "832acd018fce",
-      "employer": "Astranis",
-      "title": "RF Hardware Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4708436006",
-      "first_seen": "2026-10-02",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "860f9ba95ff8",
-      "employer": "Astranis",
-      "title": "Thermal Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704818006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "8729a522e79a",
-      "employer": "Astranis",
-      "title": "Radiation Effects Engineer Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704335006",
-      "first_seen": "2026-10-02",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "89ed088d5b72",
-      "employer": "Astranis",
-      "title": "Technical Project Management Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4708364006",
-      "first_seen": "2026-09-25",
       "missed": 1,
       "closed_on": "2026-10-26"
     },
@@ -8706,90 +9720,6 @@
       "closed_on": "2026-10-26"
     },
     {
-      "list_id": "9ab86e48d130",
-      "employer": "Astranis",
-      "title": "Propulsion Test Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705640006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "9f0763c9e9be",
-      "employer": "Astranis",
-      "title": "Thermal Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704820006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "a0b37697ad65",
-      "employer": "Astranis",
-      "title": "FPGA Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704805006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "a37b22b69efe",
-      "employer": "Astranis",
-      "title": "Propulsion Engineer Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4713183006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "a7af8e5ed603",
-      "employer": "Jabil",
-      "title": "Supply Chain Internships - Memphis, TN",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "Memphis, TN"
-      ],
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Memphis-TN/Supply-Chain-Internships---Memphis--TN_J2468519",
-      "first_seen": "2026-10-16",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "a820b0891acd",
-      "employer": "Astranis",
-      "title": "Avionics Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4706025006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
       "list_id": "ab1a66d20835",
       "employer": "SingleStore",
       "title": "Software Engineer Intern- Engine-2027",
@@ -8800,62 +9730,6 @@
       ],
       "url": "https://job-boards.greenhouse.io/singlestore/jobs/8154399",
       "first_seen": "2026-09-15",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "acf32966a6be",
-      "employer": "Astranis",
-      "title": "Electrical Integration Intern - Avionics (Winter 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704826006",
-      "first_seen": "2026-09-27",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "ad61b832b7a6",
-      "employer": "Astranis",
-      "title": "Flight Software Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704595006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "b4f87b890cb2",
-      "employer": "Astranis",
-      "title": "Software Defined Radio Hardware Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4716088006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "b519e2f9158a",
-      "employer": "Astranis",
-      "title": "Automation & Controls Engineering Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4718206006",
-      "first_seen": "2026-10-02",
       "missed": 1,
       "closed_on": "2026-10-26"
     },
@@ -8884,132 +9758,6 @@
       ],
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Florence-KY/Engineering-Internships---Florence--KY_J2468521",
       "first_seen": "2026-10-16",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "c514dd41a65b",
-      "employer": "Astranis",
-      "title": "Flight Software Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704598006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "c70b43d9e1c0",
-      "employer": "Astranis",
-      "title": "Antenna Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704284006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "c90377465d78",
-      "employer": "Astranis",
-      "title": "Harness Manufacturing Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705255006",
-      "first_seen": "2026-09-19",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "cb25f41c557f",
-      "employer": "Astranis",
-      "title": "Power Electronics Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4706427006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "d209f51f0add",
-      "employer": "Astranis",
-      "title": "RF Validation Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4716499006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "d56b977e8245",
-      "employer": "Astranis",
-      "title": "Propulsion Manufacturing Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705649006",
-      "first_seen": "2026-09-19",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "de6117a23691",
-      "employer": "Astranis",
-      "title": "Guidance, Navigation, and Control Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4705172006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "e0820f021ba1",
-      "employer": "Astranis",
-      "title": "Harness Design Engineer Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4704779006",
-      "first_seen": "2026-09-25",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
-      "list_id": "ec9abc42eb01",
-      "employer": "Astranis",
-      "title": "Technical Project Management Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4708369006",
-      "first_seen": "2026-09-25",
       "missed": 1,
       "closed_on": "2026-10-26"
     },
@@ -9056,20 +9804,6 @@
       "closed_on": "2026-10-26"
     },
     {
-      "list_id": "f691712f0b7a",
-      "employer": "Astranis",
-      "title": "RF Hardware Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4708417006",
-      "first_seen": "2026-10-02",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
       "list_id": "fa07e2c81c5f",
       "employer": "BorgWarner Inc.",
       "title": "Finite Element Analysis Intern",
@@ -9084,20 +9818,6 @@
       "closed_on": "2026-10-26"
     },
     {
-      "list_id": "fecae3b33b33",
-      "employer": "Astranis",
-      "title": "Hardware Test Intern (Winter 2027)",
-      "kind": "internship",
-      "field": "Hardware",
-      "locations": [
-        "San Francisco"
-      ],
-      "url": "https://job-boards.greenhouse.io/astranis/jobs/4707012006",
-      "first_seen": "2026-09-23",
-      "missed": 1,
-      "closed_on": "2026-10-26"
-    },
-    {
       "list_id": "07e00cf398a5",
       "employer": "Bot Auto",
       "title": "Intern, IT Specialist",
@@ -9108,20 +9828,6 @@
       ],
       "url": "https://job-boards.greenhouse.io/botauto/jobs/5430792008",
       "first_seen": "2026-09-22",
-      "missed": 1,
-      "closed_on": "2026-10-22"
-    },
-    {
-      "list_id": "443ad8db26ad",
-      "employer": "Jabil",
-      "title": "Supply Chain Internships - St. Petersburg, FL",
-      "kind": "internship",
-      "field": "Other",
-      "locations": [
-        "St. Petersburg/Tampa, FL"
-      ],
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/Supply-Chain-Internships---St-Petersburg--FL_J2468517-1",
-      "first_seen": "2026-10-15",
       "missed": 1,
       "closed_on": "2026-10-22"
     },
@@ -9182,20 +9888,6 @@
       "closed_on": "2026-10-22"
     },
     {
-      "list_id": "00a3ddb59f0e",
-      "employer": "Jabil",
-      "title": "Engineering Internships - Salt Lake City, UT",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "Salt Lake City/Grantsville, UT"
-      ],
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Salt-Lake-CityGrantsville-UT/Engineering-Internships---Salt-Lake-City--UT_J2468445",
-      "first_seen": "2026-10-15",
-      "missed": 1,
-      "closed_on": "2026-10-21"
-    },
-    {
       "list_id": "03c8e5ebd2d0",
       "employer": "RTX",
       "title": "Stage - Hiver 2027 - Développement d’indicateurs de performance et gestion des processus et projets (8 mois) / Internship - Winter 2027- Development of Performance Indicators and Process and Project Management (8 months)",
@@ -9206,37 +9898,6 @@
       ],
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Dveloppement-d-indicateurs-de-performance-et-gestion-des-processus-et-projets---Internship---Winter-2027--Development-of-Performance-Indicators-and-Process-and-Project-Management_01867284",
       "first_seen": "2026-09-04",
-      "closed_on": "2026-10-21"
-    },
-    {
-      "list_id": "04ef20e672cc",
-      "employer": "Jabil",
-      "title": "Engineering Internships - Memphis, TN",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "Memphis, TN"
-      ],
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Memphis-TN/Engineering-Internships---Memphis--TN_J2468449",
-      "first_seen": "2026-10-15",
-      "missed": 1,
-      "closed_on": "2026-10-21"
-    },
-    {
-      "list_id": "084a87f07c02",
-      "employer": "RTX",
-      "title": "Quality Engineering Intern (Summer 2027)",
-      "kind": "internship",
-      "field": "Software",
-      "locations": [
-        "CORALVILLE-155 ~ 2855 Heartland Dr ~ HEARTLAND BLDG 155, IA",
-        "DURHAM-121 ~ 121 Technology Dr ~ BLDG 125, NH",
-        "FAIRFIELD-3530 ~ 3530 Branscombe Rd ~ BRANSCOMBE, CA",
-        "WINDSOR LOCKS-B1A ~ 1 Hamilton Rd ~ BLDG 1A, CT"
-      ],
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-CA-FAIRFIELD-3530--3530-Branscombe-Rd--BRANSCOMBE/Quality-Engineering-Intern--Summer-2027-_01882706",
-      "first_seen": "2026-10-16",
-      "missed": 1,
       "closed_on": "2026-10-21"
     },
     {
