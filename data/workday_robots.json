@@ -1,7 +1,7 @@
 {
   "note": "Workday tenants whose robots.txt (User-agent *) disallows the career site path. Rows from these hosts are not listed. Checked once per host, root robots.txt only. A fetch error excludes the tenant for that run.",
-  "checked_on": "2026-10-28",
-  "hosts_checked": 48,
+  "checked_on": "2026-10-29",
+  "hosts_checked": 46,
   "disallowed": [
     "4flow.wd3.myworkdayjobs.com",
     "abb.wd3.myworkdayjobs.com",
